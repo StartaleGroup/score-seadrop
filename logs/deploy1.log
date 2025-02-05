@@ -1,0 +1,199 @@
+aibo-seadrop on  test-soul via  v23.6.0 took 4s 
+❯ forge script script/DeployAndConfigureExampleToken.s.sol --rpc-url $SEP2 --broadcast -vvvv --private-key $GACHA --etherscan-api-key $ETHERSCAN_API_KEY --verify --retries 10
+[⠊] Compiling...
+[⠔] Compiling 1 files with Solc 0.8.17
+[⠒] Solc 0.8.17 finished in 2.51s
+Compiler run successful!
+Traces:
+  [4320190] DeployAndConfigureExampleToken::run()
+    ├─ [0] VM::startBroadcast()
+    │   └─ ← [Return] 
+    ├─ [4046778] → new AstarChicks@0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2
+    │   ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA)
+    │   ├─ emit SeaDropTokenDeployed()
+    │   └─ ← [Return] 19299 bytes of code
+    ├─ [23860] AstarChicks::setMaxSupply(1000)
+    │   ├─ emit MaxSupplyUpdated(newMaxSupply: 1000)
+    │   └─ ← [Stop] 
+    ├─ [28822] AstarChicks::updateCreatorPayoutAddress(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA)
+    │   ├─ [25016] SeaDrop::updateCreatorPayoutAddress(0x911d82b108804A18022d0A2621B2Fc608DEF6FCA)
+    │   │   ├─ [468] AstarChicks::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit CreatorPayoutAddressUpdated(nftContract: AstarChicks: [0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2], newPayoutAddress: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA)
+    │   │   └─ ← [Stop] 
+    │   └─ ← [Stop] 
+    ├─ [71574] AstarChicks::updateAllowedFeeRecipient(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, true)
+    │   ├─ [70173] SeaDrop::updateAllowedFeeRecipient(0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, true)
+    │   │   ├─ [468] AstarChicks::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit AllowedFeeRecipientUpdated(nftContract: AstarChicks: [0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2], feeRecipient: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, allowed: true)
+    │   │   └─ ← [Stop] 
+    │   └─ ← [Stop] 
+    ├─ [30330] AstarChicks::updatePublicDrop(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], PublicDrop({ mintPrice: 0, startTime: 1738769472 [1.738e9], endTime: 1738779472 [1.738e9], maxTotalMintableByWallet: 10, feeBps: 0, restrictFeeRecipients: true }))
+    │   ├─ [28411] SeaDrop::updatePublicDrop(PublicDrop({ mintPrice: 0, startTime: 1738769472 [1.738e9], endTime: 1738779472 [1.738e9], maxTotalMintableByWallet: 10, feeBps: 0, restrictFeeRecipients: true }))
+    │   │   ├─ [468] AstarChicks::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit PublicDropUpdated(nftContract: AstarChicks: [0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2], publicDrop: PublicDrop({ mintPrice: 0, startTime: 1738769472 [1.738e9], endTime: 1738779472 [1.738e9], maxTotalMintableByWallet: 10, feeBps: 0, restrictFeeRecipients: true }))
+    │   │   └─ ← [Stop] 
+    │   └─ ← [Stop] 
+    ├─ [64394] SeaDrop::mintPublic(AstarChicks: [0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2], 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, 0x0000000000000000000000000000000000000000, 3)
+    │   ├─ [2920] AstarChicks::getMintStats(0x911d82b108804A18022d0A2621B2Fc608DEF6FCA) [staticcall]
+    │   │   └─ ← [Return] 0, 0, 1000
+    │   ├─ [50116] AstarChicks::mintSeaDrop(0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, 3)
+    │   │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, tokenId: 1)
+    │   │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, tokenId: 2)
+    │   │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, tokenId: 3)
+    │   │   └─ ← [Stop] 
+    │   ├─ emit SeaDropMint(nftContract: AstarChicks: [0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2], minter: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, feeRecipient: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, payer: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, quantityMinted: 3, unitMintPrice: 0, feeBps: 0, dropStageIndex: 0)
+    │   └─ ← [Stop] 
+    └─ ← [Stop] 
+
+
+Script ran successfully.
+
+## Setting up 1 EVM.
+==========================
+Simulated On-chain Traces:
+
+  [4046778] → new AstarChicks@0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2
+    ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA)
+    ├─ emit SeaDropTokenDeployed()
+    └─ ← [Return] 19299 bytes of code
+
+  [27860] AstarChicks::setMaxSupply(1000)
+    ├─ emit MaxSupplyUpdated(newMaxSupply: 1000)
+    └─ ← [Stop] 
+
+  [32822] AstarChicks::updateCreatorPayoutAddress(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA)
+    ├─ [25016] SeaDrop::updateCreatorPayoutAddress(0x911d82b108804A18022d0A2621B2Fc608DEF6FCA)
+    │   ├─ [468] AstarChicks::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit CreatorPayoutAddressUpdated(nftContract: AstarChicks: [0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2], newPayoutAddress: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA)
+    │   └─ ← [Stop] 
+    └─ ← [Stop] 
+
+  [78074] AstarChicks::updateAllowedFeeRecipient(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, true)
+    ├─ [70173] SeaDrop::updateAllowedFeeRecipient(0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, true)
+    │   ├─ [468] AstarChicks::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit AllowedFeeRecipientUpdated(nftContract: AstarChicks: [0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2], feeRecipient: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, allowed: true)
+    │   └─ ← [Stop] 
+    └─ ← [Stop] 
+
+  [36830] AstarChicks::updatePublicDrop(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], PublicDrop({ mintPrice: 0, startTime: 1738769472 [1.738e9], endTime: 1738779472 [1.738e9], maxTotalMintableByWallet: 10, feeBps: 0, restrictFeeRecipients: true }))
+    ├─ [28411] SeaDrop::updatePublicDrop(PublicDrop({ mintPrice: 0, startTime: 1738769472 [1.738e9], endTime: 1738779472 [1.738e9], maxTotalMintableByWallet: 10, feeBps: 0, restrictFeeRecipients: true }))
+    │   ├─ [468] AstarChicks::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit PublicDropUpdated(nftContract: AstarChicks: [0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2], publicDrop: PublicDrop({ mintPrice: 0, startTime: 1738769472 [1.738e9], endTime: 1738779472 [1.738e9], maxTotalMintableByWallet: 10, feeBps: 0, restrictFeeRecipients: true }))
+    │   └─ ← [Stop] 
+    └─ ← [Stop] 
+
+  [84494] SeaDrop::mintPublic(AstarChicks: [0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2], 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, 0x0000000000000000000000000000000000000000, 3)
+    ├─ [6920] AstarChicks::getMintStats(0x911d82b108804A18022d0A2621B2Fc608DEF6FCA) [staticcall]
+    │   └─ ← [Return] 0, 0, 1000
+    ├─ [59716] AstarChicks::mintSeaDrop(0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, 3)
+    │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, tokenId: 1)
+    │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, tokenId: 2)
+    │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, tokenId: 3)
+    │   └─ ← [Stop] 
+    ├─ emit SeaDropMint(nftContract: AstarChicks: [0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2], minter: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, feeRecipient: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, payer: 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA, quantityMinted: 3, unitMintPrice: 0, feeBps: 0, dropStageIndex: 0)
+    └─ ← [Stop] 
+
+
+==========================
+
+Chain 11155111
+
+Estimated gas price: 171.367642711 gwei
+
+Estimated total gas used for script: 6227061
+
+Estimated amount required: 1.067116764587602371 ETH
+
+==========================
+
+##### sepolia
+✅  [Success] Hash: 0xaa1e6dc2d423a803901a9725f8a9e4f6adca59447d772883a9bad48f699d45b3
+Block: 7645748
+Paid: 0.008403209672857758 ETH (100962 gas * 83.231410559 gwei)
+
+
+##### sepolia
+✅  [Success] Hash: 0x5268c4edaac4dcd3527d24a33b399ef9f5d607cfe338a06fbe21b0b15fb36fd1
+Block: 7645748
+Paid: 0.004544268553700282 ETH (54598 gas * 83.231410559 gwei)
+
+
+##### sepolia
+✅  [Success] Hash: 0xe7c70142736adce4880a7ecec42c07ae5e1181d5e1f4d684da75b618f4fb4ad0
+Block: 7645748
+Paid: 0.004921140380711434 ETH (59126 gas * 83.231410559 gwei)
+
+
+##### sepolia
+✅  [Success] Hash: 0x8b066416acb27fe082f580eddf9b054631b93a80ebec2ea4904635734e464e4c
+Block: 7645748
+Paid: 0.00832230874179441 ETH (99990 gas * 83.231410559 gwei)
+
+
+##### sepolia
+✅  [Success] Hash: 0xcafb79942be70d9beac5e5d6887c6fb94806a3c27c32e427721ec72e77bd5ee7
+Block: 7645748
+Paid: 0.004084664704593484 ETH (49076 gas * 83.231410559 gwei)
+
+
+##### sepolia
+✅  [Success] Hash: 0x38c2c878ceb3d7feb4725c295d674221b7e85606e6e6c8da1a58e8a091da4c5f
+Contract Address: 0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2
+Block: 7645748
+Paid: 0.366099019079679512 ETH (4398568 gas * 83.231410559 gwei)
+
+✅ Sequence #1 on sepolia | Total Paid: 0.39637461113333688 ETH (4762320 gas * avg 83.231410559 gwei)
+                                                                                                                                          
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+##
+Start verification for (1) contracts
+Start verifying contract `0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2` deployed on sepolia
+Compiler version: 0.8.17
+Optimizations:    1000000
+Constructor args: 000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000000b4173746172436869636b73000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000641434849434b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000005ea00ac477b1030ce78506496e8c2de24bf5
+
+Submitting verification for [src/AstarChicks.sol:AstarChicks] 0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2.
+Warning: Etherscan could not detect the deployment.; waiting 5 seconds before trying again (9 tries remaining)
+
+Submitting verification for [src/AstarChicks.sol:AstarChicks] 0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2.
+Warning: Etherscan could not detect the deployment.; waiting 5 seconds before trying again (8 tries remaining)
+
+Submitting verification for [src/AstarChicks.sol:AstarChicks] 0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2.
+Warning: Etherscan could not detect the deployment.; waiting 5 seconds before trying again (7 tries remaining)
+
+Submitting verification for [src/AstarChicks.sol:AstarChicks] 0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2.
+Warning: Etherscan could not detect the deployment.; waiting 5 seconds before trying again (6 tries remaining)
+
+Submitting verification for [src/AstarChicks.sol:AstarChicks] 0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2.
+Warning: Etherscan could not detect the deployment.; waiting 5 seconds before trying again (5 tries remaining)
+
+Submitting verification for [src/AstarChicks.sol:AstarChicks] 0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2.
+Warning: Etherscan could not detect the deployment.; waiting 5 seconds before trying again (4 tries remaining)
+
+Submitting verification for [src/AstarChicks.sol:AstarChicks] 0x98bb6c1b2A081979ab1dBEF6339191B31f6749D2.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `vsbnsdzxbuenninpepy7vzg8c3liua5m2aaxyb7a2uiyrhzbbw`
+	URL: https://sepolia.etherscan.io/address/0x98bb6c1b2a081979ab1dbef6339191b31f6749d2
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (7 tries remaining)
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+All (1) contracts were verified!
+
+Transactions saved to: /Users/mario/op/aibo-seadrop/broadcast/DeployAndConfigureExampleToken.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /Users/mario/op/aibo-seadrop/cache/DeployAndConfigureExampleToken.s.sol/11155111/run-latest.json

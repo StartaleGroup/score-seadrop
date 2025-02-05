@@ -1,0 +1,12 @@
+{
+    "description": "Commemorative Astar OG Drop", 
+    "external_url": "https://astar.network", 
+    "image": "ipfs://bafybeieceu7c4p3jm4iarsj4ca5z5wvxnnr3kflhkb2lryhwvgxdkzkil4", 
+    "name": "Astar Chicks",
+    "attributes": [ 
+        {
+            "trait_type": "Copyright",
+            "value": "Astar Network"
+        }
+    ]
+  }

@@ -3,6 +3,8 @@ pragma solidity 0.8.17;
 
 import "forge-std/Script.sol";
 
+import { AstarChicks } from "../src/AstarChicks.sol";
+
 import { ERC721SeaDrop } from "../src/ERC721SeaDrop.sol";
 
 import { ISeaDrop } from "../src/interfaces/ISeaDrop.sol";
@@ -12,16 +14,16 @@ import { PublicDrop } from "../src/lib/SeaDropStructs.sol";
 contract DeployAndConfigureExampleToken is Script {
     // Addresses
     address seadrop = 0x00005EA00Ac477B1030CE78506496e8C2dE24bf5;
-    address creator = 0x26faf8AE18d15Ed1CA0563727Ad6D4Aa02fb2F80;
-    address feeRecipient = 0x0000a26b00c1F0DF003000390027140000fAa719;
+    address creator = 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA;
+    address feeRecipient = 0x911d82b108804A18022d0A2621B2Fc608DEF6FCA;
 
     // Token config
-    uint256 maxSupply = 100;
+    uint256 maxSupply = 1000;
 
     // Drop config
-    uint16 feeBps = 500; // 5%
-    uint80 mintPrice = 0.0001 ether;
-    uint16 maxTotalMintableByWallet = 5;
+    uint16 feeBps = 0; // 5%
+    uint80 mintPrice = 0 ether;
+    uint16 maxTotalMintableByWallet = 10;
 
     function run() external {
         vm.startBroadcast();
@@ -29,9 +31,9 @@ contract DeployAndConfigureExampleToken is Script {
         address[] memory allowedSeadrop = new address[](1);
         allowedSeadrop[0] = seadrop;
 
-        ERC721SeaDrop token = new ERC721SeaDrop(
-            "My Example Token",
-            "ExTKN",
+        AstarChicks token = new AstarChicks(
+            "AstarChicks",
+            "ACHICK",
             allowedSeadrop
         );
 
@@ -46,7 +48,7 @@ contract DeployAndConfigureExampleToken is Script {
             PublicDrop(
                 mintPrice,
                 uint48(block.timestamp), // start time
-                uint48(block.timestamp) + 1000, // end time
+                uint48(block.timestamp) + 10000, // end time
                 maxTotalMintableByWallet,
                 feeBps,
                 true
