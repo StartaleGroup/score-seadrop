@@ -22,5 +22,7 @@ test = 'src'
 [rpc_endpoints]
 goerli = '${GOERLI_RPC_URL}'
 mainnet = '${ETHEREUM_RPC_URL}'
+sepolia = '${SEPOLIA_RPC_URL}'
+soneium = '${SONEIUM_RPC_URL}'
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
