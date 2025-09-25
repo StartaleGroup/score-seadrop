@@ -4,7 +4,7 @@
 source .env
 
 # Deploy and verify contract
-forge script script/DeployAndConfigureAibo.sol:DeployAndConfigureAibo \
+forge script script/DeployAndConfigureScore.sol:DeployAndConfigureScore \
   --rpc-url "$SONEIUM_RPC_URL" \
   --private-key "$MAINNET_PRIVATE_KEY" \
   --broadcast \

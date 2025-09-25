@@ -1,0 +1,199 @@
+➜ ./script/deploy-soneium.sh 
+[⠊] Compiling...
+No files changed, compilation skipped
+Traces:
+  [4511132] DeployAndConfigureScore::run()
+    ├─ [0] VM::startBroadcast()
+    │   └─ ← [Return]
+    ├─ [0] console::log("Start time: %s", 1758988800 [1.758e9]) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [0] console::log("End time: %s", 1761739200 [1.761e9]) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [4090353] → new ScoreSeason1@0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B
+    │   ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   ├─ emit SeaDropTokenDeployed()
+    │   └─ ← [Return] 19299 bytes of code
+    ├─ [23860] ScoreSeason1::setMaxSupply(30000 [3e4])
+    │   ├─ emit MaxSupplyUpdated(newMaxSupply: 30000 [3e4])
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Token max supply set to: %s", 30000 [3e4]) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [92021] ScoreSeason1::setBaseURI("ipfs://bafkreicywjwxgvmcrz76lkjrcyfr7w3cyogqxdkcyfbmoozjf4zn2eb2v4")
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Token base URI set to: %s", "ipfs://bafkreicywjwxgvmcrz76lkjrcyfr7w3cyogqxdkcyfbmoozjf4zn2eb2v4") [staticcall]
+    │   └─ ← [Stop]
+    ├─ [92074] ScoreSeason1::setContractURI("ipfs://bafkreibwvmzy2hpg7o2mdebvioijrtcfglnmhrwp5pky7rntumyygn77lu")
+    │   ├─ emit ContractURIUpdated(newContractURI: "ipfs://bafkreibwvmzy2hpg7o2mdebvioijrtcfglnmhrwp5pky7rntumyygn77lu")
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Token contract URI set to: %s", "ipfs://bafkreibwvmzy2hpg7o2mdebvioijrtcfglnmhrwp5pky7rntumyygn77lu") [staticcall]
+    │   └─ ← [Stop]
+    ├─ [28822] ScoreSeason1::updateCreatorPayoutAddress(0x00005EA00Ac477B1030CE78506496e8C2dE24bf5, 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   ├─ [25016] 0x00005EA00Ac477B1030CE78506496e8C2dE24bf5::updateCreatorPayoutAddress(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   │   ├─ [468] ScoreSeason1::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit CreatorPayoutAddressUpdated(nftContract: ScoreSeason1: [0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B], newPayoutAddress: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Creator payout address set to: %s", 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [71574] ScoreSeason1::updateAllowedFeeRecipient(0x00005EA00Ac477B1030CE78506496e8C2dE24bf5, 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    │   ├─ [70173] 0x00005EA00Ac477B1030CE78506496e8C2dE24bf5::updateAllowedFeeRecipient(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    │   │   ├─ [468] ScoreSeason1::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit AllowedFeeRecipientUpdated(nftContract: ScoreSeason1: [0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B], feeRecipient: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, allowed: true)
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Allowed fee recipient set to: %s", 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [30330] ScoreSeason1::updatePublicDrop(0x00005EA00Ac477B1030CE78506496e8C2dE24bf5, PublicDrop({ mintPrice: 0, startTime: 1758988800 [1.758e9], endTime: 1761739200 [1.761e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   ├─ [28411] 0x00005EA00Ac477B1030CE78506496e8C2dE24bf5::updatePublicDrop(PublicDrop({ mintPrice: 0, startTime: 1758988800 [1.758e9], endTime: 1761739200 [1.761e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   │   ├─ [468] ScoreSeason1::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit PublicDropUpdated(nftContract: ScoreSeason1: [0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B], publicDrop: PublicDrop({ mintPrice: 0, startTime: 1758988800 [1.758e9], endTime: 1761739200 [1.761e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+
+Script ran successfully.
+
+== Logs ==
+  Start time: 1758988800
+  End time: 1761739200
+  Token max supply set to: 30000
+  Token base URI set to: ipfs://bafkreicywjwxgvmcrz76lkjrcyfr7w3cyogqxdkcyfbmoozjf4zn2eb2v4
+  Token contract URI set to: ipfs://bafkreibwvmzy2hpg7o2mdebvioijrtcfglnmhrwp5pky7rntumyygn77lu
+  Creator payout address set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+  Allowed fee recipient set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+
+## Setting up 1 EVM.
+==========================
+Simulated On-chain Traces:
+
+  [4090353] → new ScoreSeason1@0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B
+    ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    ├─ emit SeaDropTokenDeployed()
+    └─ ← [Return] 19299 bytes of code
+
+  [27860] ScoreSeason1::setMaxSupply(30000 [3e4])
+    ├─ emit MaxSupplyUpdated(newMaxSupply: 30000 [3e4])
+    └─ ← [Stop]
+
+  [96021] ScoreSeason1::setBaseURI("ipfs://bafkreicywjwxgvmcrz76lkjrcyfr7w3cyogqxdkcyfbmoozjf4zn2eb2v4")
+    └─ ← [Stop]
+
+  [94074] ScoreSeason1::setContractURI("ipfs://bafkreibwvmzy2hpg7o2mdebvioijrtcfglnmhrwp5pky7rntumyygn77lu")
+    ├─ emit ContractURIUpdated(newContractURI: "ipfs://bafkreibwvmzy2hpg7o2mdebvioijrtcfglnmhrwp5pky7rntumyygn77lu")
+    └─ ← [Stop]
+
+  [32822] ScoreSeason1::updateCreatorPayoutAddress(0x00005EA00Ac477B1030CE78506496e8C2dE24bf5, 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    ├─ [25016] 0x00005EA00Ac477B1030CE78506496e8C2dE24bf5::updateCreatorPayoutAddress(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   ├─ [468] ScoreSeason1::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit CreatorPayoutAddressUpdated(nftContract: ScoreSeason1: [0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B], newPayoutAddress: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+  [78074] ScoreSeason1::updateAllowedFeeRecipient(0x00005EA00Ac477B1030CE78506496e8C2dE24bf5, 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    ├─ [70173] 0x00005EA00Ac477B1030CE78506496e8C2dE24bf5::updateAllowedFeeRecipient(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    │   ├─ [468] ScoreSeason1::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit AllowedFeeRecipientUpdated(nftContract: ScoreSeason1: [0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B], feeRecipient: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, allowed: true)
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+  [36830] ScoreSeason1::updatePublicDrop(0x00005EA00Ac477B1030CE78506496e8C2dE24bf5, PublicDrop({ mintPrice: 0, startTime: 1758988800 [1.758e9], endTime: 1761739200 [1.761e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    ├─ [28411] 0x00005EA00Ac477B1030CE78506496e8C2dE24bf5::updatePublicDrop(PublicDrop({ mintPrice: 0, startTime: 1758988800 [1.758e9], endTime: 1761739200 [1.761e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   ├─ [468] ScoreSeason1::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit PublicDropUpdated(nftContract: ScoreSeason1: [0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B], publicDrop: PublicDrop({ mintPrice: 0, startTime: 1758988800 [1.758e9], endTime: 1761739200 [1.761e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+
+==========================
+
+Chain 1868
+
+Estimated gas price: 0.001834032 gwei
+
+Estimated total gas used for script: 6462890
+
+Estimated amount required: 0.00001185314707248 ETH
+
+==========================
+
+##### soneium
+✅  [Success] Hash: 0xbf4a3705d134940b110dfe3af3f72e5e76a8fbf7c4dae0a3acda919724d5087e
+Contract Address: 0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B
+Block: 12839716
+Paid: 0.000004280017681719 ETH (4436433 gas * 0.000964743 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x0476432d7a1c5ad370db3c972367b21836028ca990f596da57080b017b3f0f4c
+Block: 12839717
+Paid: 0.000000052927464994 ETH (54598 gas * 0.000969403 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x850b6a17abffe80b7eda42fd207c3bc2e833d144db5f78df67a391197e03f039
+Block: 12839717
+Paid: 0.000000114914001023 ETH (118541 gas * 0.000969403 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x5ada2bedb5f204e0f7bcfc0bcdcd56a22ff71fe77cad9392521b8e099451536d
+Block: 12839717
+Paid: 0.000000047574421628 ETH (49076 gas * 0.000969403 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x12262d5f0be3d1530b44746b16a1f18474b0e1346b9bc0cb8a97fee09d1cf511
+Block: 12839717
+Paid: 0.000000113026573382 ETH (116594 gas * 0.000969403 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x1c40a8892ddd072de57d10bf73ab42dd6a241ec3a85a304bb23067bf6f96bdd0
+Block: 12839717
+Paid: 0.00000009693060597 ETH (99990 gas * 0.000969403 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0xb9eb8c08c80ce5aa4c2b9256ed980bd64aa43fe12f8c2a0b49c5f2efa513e129
+Block: 12839717
+Paid: 0.000000057293656106 ETH (59102 gas * 0.000969403 gwei)
+
+✅ Sequence #1 on soneium | Total Paid: 0.000004762684404822 ETH (4934334 gas * avg 0.000968737 gwei)
+                                                                                                    
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+##
+Start verification for (1) contracts
+Start verifying contract `0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B` deployed on soneium
+EVM version: london
+Compiler version: 0.8.17
+Optimizations:    1000000
+
+Submitting verification for [src/ScoreSeason1.sol:ScoreSeason1] 0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `05ab5e724848cefeac6d303cdf94032e5cc3552b68d55fec`
+	URL: https://soneium.blockscout.com/address/0x05ab5e724848cefeac6d303cdf94032e5cc3552b
+Contract verification status:
+Response: `OK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (7 tries remaining)
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+All (1) contracts were verified!
+
+Transactions saved to: /Users/mario/op/score-seadrop/broadcast/DeployAndConfigureScore.sol/1868/run-latest.json
+
+Sensitive values saved to: /Users/mario/op/score-seadrop/cache/DeployAndConfigureScore.sol/1868/run-latest.json
+
