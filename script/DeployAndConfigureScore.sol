@@ -34,6 +34,8 @@ contract DeployAndConfigureScore is Script {
     uint16 maxTotalMintableByWallet = 1;
     uint48 startTime = 1761548400; // 27 October 2025, 7:00:00 UTC
     uint48 endTime = 1762758000; // 10 November 2025, 7:00:00 UTC
+    // uint48 endTimeStage2 = 1764226800; // 27 November 2025, 7:00:00 UTC
+
 
     function run() external {
         vm.startBroadcast();
