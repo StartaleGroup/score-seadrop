@@ -1,4 +1,4 @@
-![SeaDrop_GithubCover](data/score2-image.png)
+![SeaDrop_GithubCover](data/season2/badge2.png)
 
 # Score Season2 - SeaDrop
 
