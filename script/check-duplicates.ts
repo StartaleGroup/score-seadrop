@@ -1,8 +1,10 @@
+// yarn check-duplicates
+
 import * as fs from 'fs';
 import * as path from 'path';
 
 function checkDuplicatesInCsv(): void {
-  const csvPath = path.join(__dirname, 'data', 'season_1_allowlist.csv');
+  const csvPath = path.join(__dirname, '..', 'data', 'season2', 'test.csv');
   
   try {
     // Read the CSV file
