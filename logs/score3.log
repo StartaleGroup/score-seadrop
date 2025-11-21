@@ -1,0 +1,231 @@
+➜ cd score-seadrop 
+
+score-seadrop on  season3 [🌱] via  v18.20.8 on ☁️   
+➜ set -a && source .env && set +a
+
+
+score-seadrop on  season3 [🌱] via  v18.20.8 on ☁️   
+➜ forge script script/DeployAndConfigureScore.sol:DeployAndConfigureScore \
+  --rpc-url "$SONEIUM_RPC_URL" \
+  --private-key "$MAINNET_PRIVATE_KEY" \
+  --broadcast \
+  --verify \
+  --verifier blockscout \
+  --verifier-url "https://soneium.blockscout.com/api" \
+  -vvvv
+[⠊] Compiling...
+No files changed, compilation skipped
+2025-11-21T13:00:53.761464Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.761540Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.764328Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.765552Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.770116Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.804886Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.809755Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.813493Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.816420Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.827603Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.852161Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.855105Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.858161Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.863804Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.871028Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.897908Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7109709ecfa91a80626ff3989d68f67f5b1dd12d\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.901485Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2025-11-21T13:00:53.906978Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+Traces:
+  [4511132] DeployAndConfigureScore::run()
+    ├─ [0] VM::startBroadcast()
+    │   └─ ← [Return]
+    ├─ [0] console::log("Start time: %s", 1763967600 [1.763e9]) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [0] console::log("End time: %s", 1765177200 [1.765e9]) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [4090353] → new ScoreSeason3@0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546
+    │   ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   ├─ emit SeaDropTokenDeployed()
+    │   └─ ← [Return] 19299 bytes of code
+    ├─ [23860] ScoreSeason3::setMaxSupply(40000 [4e4])
+    │   ├─ emit MaxSupplyUpdated(newMaxSupply: 40000 [4e4])
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Token max supply set to: %s", 40000 [4e4]) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [92021] ScoreSeason3::setBaseURI("ipfs://bafkreihciakmb6iwazbrvpo3x7xiel2jyajyxusuydtd7swfvs6ojlutjq")
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Token base URI set to: %s", "ipfs://bafkreihciakmb6iwazbrvpo3x7xiel2jyajyxusuydtd7swfvs6ojlutjq") [staticcall]
+    │   └─ ← [Stop]
+    ├─ [92074] ScoreSeason3::setContractURI("ipfs://bafkreidzlpzq3dxz525l3ietxd5rux6wfwkggyztmoty34q4caqidyvxxe")
+    │   ├─ emit ContractURIUpdated(newContractURI: "ipfs://bafkreidzlpzq3dxz525l3ietxd5rux6wfwkggyztmoty34q4caqidyvxxe")
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Token contract URI set to: %s", "ipfs://bafkreidzlpzq3dxz525l3ietxd5rux6wfwkggyztmoty34q4caqidyvxxe") [staticcall]
+    │   └─ ← [Stop]
+    ├─ [28822] ScoreSeason3::updateCreatorPayoutAddress(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   ├─ [25016] SeaDrop::updateCreatorPayoutAddress(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   │   ├─ [468] ScoreSeason3::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit CreatorPayoutAddressUpdated(nftContract: ScoreSeason3: [0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546], newPayoutAddress: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Creator payout address set to: %s", 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [71574] ScoreSeason3::updateAllowedFeeRecipient(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    │   ├─ [70173] SeaDrop::updateAllowedFeeRecipient(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    │   │   ├─ [468] ScoreSeason3::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit AllowedFeeRecipientUpdated(nftContract: ScoreSeason3: [0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546], feeRecipient: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, allowed: true)
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Allowed fee recipient set to: %s", 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [30330] ScoreSeason3::updatePublicDrop(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], PublicDrop({ mintPrice: 0, startTime: 1763967600 [1.763e9], endTime: 1765177200 [1.765e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   ├─ [28411] SeaDrop::updatePublicDrop(PublicDrop({ mintPrice: 0, startTime: 1763967600 [1.763e9], endTime: 1765177200 [1.765e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   │   ├─ [468] ScoreSeason3::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit PublicDropUpdated(nftContract: ScoreSeason3: [0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546], publicDrop: PublicDrop({ mintPrice: 0, startTime: 1763967600 [1.763e9], endTime: 1765177200 [1.765e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+
+Script ran successfully.
+
+== Logs ==
+  Start time: 1763967600
+  End time: 1765177200
+  Token max supply set to: 40000
+  Token base URI set to: ipfs://bafkreihciakmb6iwazbrvpo3x7xiel2jyajyxusuydtd7swfvs6ojlutjq
+  Token contract URI set to: ipfs://bafkreidzlpzq3dxz525l3ietxd5rux6wfwkggyztmoty34q4caqidyvxxe
+  Creator payout address set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+  Allowed fee recipient set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+
+## Setting up 1 EVM.
+==========================
+Simulated On-chain Traces:
+
+  [4090353] → new ScoreSeason3@0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546
+    ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    ├─ emit SeaDropTokenDeployed()
+    └─ ← [Return] 19299 bytes of code
+
+  [27860] ScoreSeason3::setMaxSupply(40000 [4e4])
+    ├─ emit MaxSupplyUpdated(newMaxSupply: 40000 [4e4])
+    └─ ← [Stop]
+
+  [96021] ScoreSeason3::setBaseURI("ipfs://bafkreihciakmb6iwazbrvpo3x7xiel2jyajyxusuydtd7swfvs6ojlutjq")
+    └─ ← [Stop]
+
+  [94074] ScoreSeason3::setContractURI("ipfs://bafkreidzlpzq3dxz525l3ietxd5rux6wfwkggyztmoty34q4caqidyvxxe")
+    ├─ emit ContractURIUpdated(newContractURI: "ipfs://bafkreidzlpzq3dxz525l3ietxd5rux6wfwkggyztmoty34q4caqidyvxxe")
+    └─ ← [Stop]
+
+  [32822] ScoreSeason3::updateCreatorPayoutAddress(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    ├─ [25016] SeaDrop::updateCreatorPayoutAddress(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   ├─ [468] ScoreSeason3::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit CreatorPayoutAddressUpdated(nftContract: ScoreSeason3: [0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546], newPayoutAddress: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+  [78074] ScoreSeason3::updateAllowedFeeRecipient(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    ├─ [70173] SeaDrop::updateAllowedFeeRecipient(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    │   ├─ [468] ScoreSeason3::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit AllowedFeeRecipientUpdated(nftContract: ScoreSeason3: [0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546], feeRecipient: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, allowed: true)
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+  [36830] ScoreSeason3::updatePublicDrop(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], PublicDrop({ mintPrice: 0, startTime: 1763967600 [1.763e9], endTime: 1765177200 [1.765e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    ├─ [28411] SeaDrop::updatePublicDrop(PublicDrop({ mintPrice: 0, startTime: 1763967600 [1.763e9], endTime: 1765177200 [1.765e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   ├─ [468] ScoreSeason3::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit PublicDropUpdated(nftContract: ScoreSeason3: [0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546], publicDrop: PublicDrop({ mintPrice: 0, startTime: 1763967600 [1.763e9], endTime: 1765177200 [1.765e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+
+==========================
+
+Chain 1868
+
+Estimated gas price: 0.045868038 gwei
+
+Estimated total gas used for script: 6467710
+
+Estimated amount required: 0.00029666116805298 ETH
+
+==========================
+
+##### soneium
+✅  [Success] Hash: 0xaa899f3523656565102c8993d28b8c19c059bf025b0240e8ed6f22931b41c053
+Block: 15297655
+Paid: 0.000001165123033048 ETH (49076 gas * 0.023741198 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x7c41128769918fca4e14379a0e55b5e6681f46f193985561c3e2ef8591b976e7
+Contract Address: 0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546
+Block: 15297655
+Paid: 0.000105326234266734 ETH (4436433 gas * 0.023741198 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x2db5931fd964b1d128f11f297144739c46e92abde4574159934a2c99c5ae9ff3
+Block: 15297655
+Paid: 0.000001296221928404 ETH (54598 gas * 0.023741198 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x8c962b1cb521b0e25530fe37ad6f654121938f75afd6a62058fc7a0a0b9b6b47
+Block: 15297655
+Paid: 0.000002768081239612 ETH (116594 gas * 0.023741198 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0xc870df0fac73d908830d8e84de8405c6b30318c85ed6a4d73993f5a3ab5185e5
+Block: 15297655
+Paid: 0.000001403437178572 ETH (59114 gas * 0.023741198 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0xdb59cb432500b09a20c25bfadf1a985ff3b90e11203cabd224f6a84cd2dda74d
+Block: 15297655
+Paid: 0.000002814305352118 ETH (118541 gas * 0.023741198 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x9e5aee0ff21ec2375baa286a57910570197735167eaff99ebb515c3cdbf415f5
+Block: 15297655
+Paid: 0.00000237388238802 ETH (99990 gas * 0.023741198 gwei)
+
+✅ Sequence #1 on soneium | Total Paid: 0.000117147285386508 ETH (4934346 gas * avg 0.023741198 gwei)
+                                                                                                               
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+##
+Start verification for (1) contracts
+Start verifying contract `0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546` deployed on soneium
+EVM version: london
+Compiler version: 0.8.17
+Optimizations:    1000000
+
+Submitting verification for [src/ScoreSeason3.sol:ScoreSeason3] 0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `7bf02b42b9d4ccd85b497c9f53e6b7474f9c254669206291`
+	URL: https://soneium.blockscout.com/address/0x7bf02b42b9d4ccd85b497c9f53e6b7474f9c2546
+Contract verification status:
+Response: `OK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (7 tries remaining)
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+All (1) contracts were verified!
+
+Transactions saved to: /Users/mario/op/score-seadrop/broadcast/DeployAndConfigureScore.sol/1868/run-latest.json
+
+Sensitive values saved to: /Users/mario/op/score-seadrop/cache/DeployAndConfigureScore.sol/1868/run-latest.json
+

@@ -6,4 +6,4 @@ NFT Awarded for Soneium Score participants with 80+ points during Season 3.
 
 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season3-badge/overview)
 
-Score Season3 NFT on [Blockscout](https://soneium.blockscout.com/address/0x6b2f6D8216E075D3a71F4aaf21d7158Af9B8dc82?tab=contract).
+Score Season3 NFT on [Blockscout](https://soneium.blockscout.com/address/0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546?tab=txs).

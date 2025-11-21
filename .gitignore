@@ -17,7 +17,6 @@ out
 reference-out
 optimized-out
 reference-working
-broadcast
 lcov*.info
 
 .DS_Store
