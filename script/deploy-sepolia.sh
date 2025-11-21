@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Load environment variables
-source .env
+set -a && source .env && set +a
 
 # Deploy and verify contract
 forge script script/DeployAndConfigureScore.sol:DeployAndConfigureScore \
