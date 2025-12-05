@@ -16,22 +16,25 @@ function checkDuplicatesInCsv(): void {
 
     // Extract wallet addresses (first column)
     const walletAddresses: string[] = [];
-    const seenAddresses = new Set<string>();
+    const seenAddresses = new Map<string, number[]>(); // address -> line numbers
     const duplicates = new Set<string>();
 
-    for (const line of dataLines) {
+    for (let i = 0; i < dataLines.length; i++) {
+      const line = dataLines[i];
       if (line.trim() === '') continue; // Skip empty lines
 
       const columns = line.split(',');
       if (columns.length > 0) {
         const walletAddress = columns[0].trim().toLowerCase();
+        const lineNumber = i + 2; // +2 because we skipped header and arrays are 0-indexed
 
         walletAddresses.push(walletAddress);
 
         if (seenAddresses.has(walletAddress)) {
           duplicates.add(walletAddress);
+          seenAddresses.get(walletAddress)!.push(lineNumber);
         } else {
-          seenAddresses.add(walletAddress);
+          seenAddresses.set(walletAddress, [lineNumber]);
         }
       }
     }
@@ -43,8 +46,15 @@ function checkDuplicatesInCsv(): void {
     if (duplicates.size > 0) {
       console.log('\nDuplicated wallet addresses:');
       duplicates.forEach(address => {
-        const count = walletAddresses.filter(addr => addr === address).length;
-        console.log(`  ${address} (appears ${count} times)`);
+        const lineNumbers = seenAddresses.get(address)!;
+        console.log(`\n  ${address}`);
+        console.log(`  Appears ${lineNumbers.length} times on lines: ${lineNumbers.join(', ')}`);
+        
+        // Show the actual line content for each occurrence
+        lineNumbers.forEach(lineNum => {
+          const actualLine = lines[lineNum - 1]; // -1 because lines array is 0-indexed
+          console.log(`    Line ${lineNum}: ${actualLine}`);
+        });
       });
     } else {
       console.log('\nNo duplicate addresses found!');
