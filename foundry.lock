@@ -1,0 +1,38 @@
+{
+  "lib/ERC721A": {
+    "rev": "9be81f029a0883e0c7c6d5a410ee49c48c69205d"
+  },
+  "lib/ERC721A-Upgradeable": {
+    "rev": "bb4edecb6a824211ec7c09bb9d737921c89dc21c"
+  },
+  "lib/create2-helpers": {
+    "branch": {
+      "name": "v0.1.3",
+      "rev": "16d44965aea6a06660b9e4e57d93706104e59938"
+    }
+  },
+  "lib/ds-test": {
+    "rev": "e282159d5170298eb2455a6c05280ab5a73a4ef0"
+  },
+  "lib/forge-std": {
+    "branch": {
+      "name": "v1.5.0",
+      "rev": "726a6ee5fc8427a0013d6f624e486c9130c0e336"
+    }
+  },
+  "lib/murky": {
+    "rev": "5f962edf98f2aeaf2706f7bfd07fac4532b42cc6"
+  },
+  "lib/openzeppelin-contracts": {
+    "rev": "6a8d977d2248cf1c115497fccfd7a2da3f86a58f"
+  },
+  "lib/openzeppelin-contracts-upgradeable": {
+    "rev": "25aabd286e002a1526c345c8db259d57bdf0ad28"
+  },
+  "lib/solmate": {
+    "rev": "01a52350852b6036dd0fd9af909fb3db765d56dc"
+  },
+  "lib/utility-contracts": {
+    "rev": "6543a1dd10160936849de2f2fbcc18503906fb1e"
+  }
+}
