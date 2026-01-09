@@ -7,7 +7,7 @@ pragma solidity 0.8.17;
 
 import "forge-std/Script.sol";
 
-import { ScoreSeason3 } from "../src/ScoreSeason3.sol";
+import { ScoreSeason4 } from "../src/ScoreSeason4.sol";
 
 import { ERC721SeaDrop } from "../src/ERC721SeaDrop.sol";
 
@@ -22,19 +22,19 @@ contract DeployAndConfigureScore is Script {
     address feeRecipient = 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C;
 
     // Token config
-    uint256 maxSupply = 40000;
+    uint256 maxSupply = 26000;
     string baseURI =
-        "ipfs://bafkreihciakmb6iwazbrvpo3x7xiel2jyajyxusuydtd7swfvs6ojlutjq"; // Score3 metadata pointing to image
+        "ipfs://bafkreihwrclsa7kopy6hev5jzb4zhkwyz6dt5wqqlyukinhazvbuthv5sq"; // Score4 metadata pointing to image
     string contractURI =
-        "ipfs://bafkreidzlpzq3dxz525l3ietxd5rux6wfwkggyztmoty34q4caqidyvxxe"; // Score3 contract info
+        "ipfs://bafkreicqv7fupl7vxluh7g2fnosq5e45mcx3366gs5duhdto6xnbhsdcxm"; // Score4 contract info
 
     // Drop config
     uint16 feeBps = 0;
     uint80 mintPrice = 0 ether;
     uint16 maxTotalMintableByWallet = 1;
-    uint48 startTime = 1763967600; // Monday, November 24, 2025 7:00:00 AM UTC
-    uint48 endTime = 1765177200; // Monday, December 8, 2025 7:00:00 AM UTC
-    // uint48 endTimeStage3 = 1766386800; // Monday, December 22, 2025 7:00:00 AM UTC
+    uint48 startTime = 1766386800; // Mon, 22 Dec 2025 07:00:00 GMT
+    uint48 endTime = 1767855600; // Thu, 08 Jan 2026 07:00:00 GMT
+    // uint48 endTimestage2 = 1769065200; // Thu, 22 Jan 2026 07:00:00 GMT
 
 
     function run() external {
@@ -45,7 +45,7 @@ contract DeployAndConfigureScore is Script {
         address[] memory allowedSeadrop = new address[](1);
         allowedSeadrop[0] = seadrop;
 
-        ScoreSeason3 token = new ScoreSeason3();
+        ScoreSeason4 token = new ScoreSeason4();
 
         // Configure the token.
         token.setMaxSupply(maxSupply);
