@@ -9,7 +9,7 @@ NFT Awarded for Soneium Score participants with 80+ points during each Season.
 * Season 3 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season3-badge/overview), minted 37564(38446) tokens
 * Season 4 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season4-badge/overview), minted 0(27000) tokens
 * Season 5 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season5-badge/overview), minted 0(27000) tokens
-* Season 6 Mint on [OpenSea](), minted 0(27000) tokens
+* Season 6 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season6-badge/overview), minted 0(27000) tokens
 
 ## Contracts
 
