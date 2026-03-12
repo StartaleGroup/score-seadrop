@@ -1,4 +1,4 @@
-<img src="data/season1/score1-image.png" width="50" height="50"> <img src="data/season2/badge2.png" width="50" height="50"> <img src="data/season3/badge3.png" width="50" height="50"> <img src="data/season4/badge4.png" width="50" height="50">
+<img src="data/season1/score1-image.png" width="50" height="50"> <img src="data/season2/badge2.png" width="50" height="50"> <img src="data/season3/badge3.png" width="50" height="50"> <img src="data/season4/badge4.png" width="50" height="50"> <img src="data/season5/badge5.png" width="50" height="50"> <img src="data/season6/badge6.png" width="50" height="50"> <img src="data/season7/badge7.png" width="50" height="50">
 
 # Score NFT - SeaDrop
 
@@ -10,6 +10,7 @@ NFT Awarded for Soneium Score participants with 80+ points during each Season.
 * Season 4 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season4-badge/overview), minted 0(27000) tokens
 * Season 5 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season5-badge/overview), minted 0(27000) tokens
 * Season 6 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season6-badge/overview), minted 0(27000) tokens
+* Season 7 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season7-badge/overview), minted 0(27000) tokens
 
 ## Contracts
 
@@ -19,3 +20,4 @@ NFT Awarded for Soneium Score participants with 80+ points during each Season.
 * Score Season4 NFT on [Blockscout](https://soneium.blockscout.com/address/0x17121f9a7041FFe3EF248F7b84658d9229bad64f?tab=txs).
 * Score Season5 NFT on [Blockscout](https://soneium.blockscout.com/address/0xd8d14f829665183049707e0bdd93f9012bb3c4c2).
 * Score Season6 NFT on [Blockscout](https://soneium.blockscout.com/address/0xe5a3d28fe65895d7cd7146fb50199b85fba74c3e).
+* Score Season7 NFT on [Blockscout](https://soneium.blockscout.com/address/).
