@@ -5,10 +5,10 @@ import {
     ERC721SeaDropSoulbound
 } from "./extensions/ERC721SeaDropSoulbound.sol";
 
-string constant NAME = "Soneium Score Season 5 Badge";
-string constant SYMBOL = "SONEIUMS5";
+string constant NAME = "Soneium Score Season 6 Badge";
+string constant SYMBOL = "SONEIUMS6";
 
-contract ScoreSeason5 is ERC721SeaDropSoulbound {
+contract ScoreSeason6 is ERC721SeaDropSoulbound {
     address[] seadrop = [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5];
 
     constructor() ERC721SeaDropSoulbound(NAME, SYMBOL, seadrop) {}
