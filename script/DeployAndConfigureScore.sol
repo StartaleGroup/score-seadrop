@@ -22,7 +22,7 @@ contract DeployAndConfigureScore is Script {
     address feeRecipient = 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C;
 
     // Token config
-    uint256 maxSupply = 40000;
+    uint256 maxSupply = 45000;
     string baseURI =
         "ipfs://bafkreifcj2zt2gohg4falwqd7gvtwlh5nuctde65rn4csl6ans4m3mavfi"; // Score7 metadata pointing to image
     string contractURI =

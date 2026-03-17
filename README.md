@@ -20,4 +20,4 @@ NFT Awarded for Soneium Score participants with 80+ points during each Season.
 * Score Season4 NFT on [Blockscout](https://soneium.blockscout.com/address/0x17121f9a7041FFe3EF248F7b84658d9229bad64f?tab=txs).
 * Score Season5 NFT on [Blockscout](https://soneium.blockscout.com/address/0xd8d14f829665183049707e0bdd93f9012bb3c4c2).
 * Score Season6 NFT on [Blockscout](https://soneium.blockscout.com/address/0xe5a3d28fe65895d7cd7146fb50199b85fba74c3e).
-* Score Season7 NFT on [Blockscout](https://soneium.blockscout.com/address/).
+* Score Season7 NFT on [Blockscout](https://soneium.blockscout.com/address/0x8F97Ff6a07F78Fb0259f543ed032A5985F2A92Ae).
