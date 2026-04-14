@@ -1,0 +1,1729 @@
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+➜ forge script script/DeployAndConfigureScore.sol:DeployAndConfigureScore \
+  --rpc-url "$SONEIUM_RPC_URL" \
+  --private-key "$MAINNET_PRIVATE_KEY"
+[⠊] Compiling...
+[⠊] Compiling 2 files with Solc 0.8.17
+[⠒] Solc 0.8.17 finished in 2.98s
+Compiler run successful!
+Warning: Detected artifacts built from source files that no longer exist. Run `forge clean` to make sure builds are in sync with project files.
+ - /Users/mario/op/score-seadrop/src/ScoreSeason7.sol
+ - /Users/mario/op/score-seadrop/src/ScoreSeason5.sol
+2026-04-13T09:10:51.365936Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.366579Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.366610Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.377426Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.410652Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.420561Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.428501Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.462609Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.489624Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.504940Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.555720Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.563275Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.606242Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.659442Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.693241Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.728373Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.732377Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7109709ecfa91a80626ff3989d68f67f5b1dd12d\"}],\"status\":\"1\"}"
+2026-04-13T09:10:51.742311Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+Script ran successfully.
+
+== Logs ==
+  Start time: 1776236400
+  End time: 1777446000
+  Token max supply set to: 45000
+  Token base URI set to: ipfs://bafkreiailhniiugc2y2od5qrtha6bodewvyg3sfjqqu6grijizyyxaeg2u
+  Token contract URI set to: ipfs://bafkreia4aq7rxndrknh2xykf7fogmxirbuymfgeqekkeyfxbpimyfycezm
+  Creator payout address set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+  Allowed fee recipient set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+
+## Setting up 1 EVM.
+
+==========================
+
+Chain 1868
+
+Estimated gas price: 0.000001009 gwei
+
+Estimated total gas used for script: 6463023
+
+Estimated amount required: 0.000000006521190207 ETH
+
+==========================
+
+SIMULATION COMPLETE. To broadcast these transactions, add --broadcast and wallet configuration(s) to the previous command. See forge script --help for more.
+
+Transactions saved to: /Users/mario/op/score-seadrop/broadcast/DeployAndConfigureScore.sol/1868/dry-run/run-latest.json
+
+Sensitive values saved to: /Users/mario/op/score-seadrop/cache/DeployAndConfigureScore.sol/1868/dry-run/run-latest.json
+
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   took 7s 
+➜ forge clean
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+➜ 
+                                                                                                    
+
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+➜ 
+                                                                                                    
+
+
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+➜ 
+                                                                                                    
+
+
+
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+➜ 
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+➜ 
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+➜ 
+                                                                                                    
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+➜ 
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+➜ forge script script/DeployAndConfigureScore.sol:DeployAndConfigureScore \
+  --rpc-url "$SONEIUM_RPC_URL" \
+  --private-key "$MAINNET_PRIVATE_KEY"
+[⠊] Compiling...
+[⠢] Compiling 65 files with Solc 0.8.17
+[⠆] Solc 0.8.17 finished in 5.31s
+Compiler run successful!
+2026-04-13T09:11:39.315659Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.316267Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.316302Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.316324Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.322725Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.360698Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.360748Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.363954Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.372453Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.379596Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.407399Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.414837Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.416279Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.420791Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.423086Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.458528Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7109709ecfa91a80626ff3989d68f67f5b1dd12d\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.464434Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:11:39.469166Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+Script ran successfully.
+
+== Logs ==
+  Start time: 1776236400
+  End time: 1777446000
+  Token max supply set to: 45000
+  Token base URI set to: ipfs://bafkreiailhniiugc2y2od5qrtha6bodewvyg3sfjqqu6grijizyyxaeg2u
+  Token contract URI set to: ipfs://bafkreia4aq7rxndrknh2xykf7fogmxirbuymfgeqekkeyfxbpimyfycezm
+  Creator payout address set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+  Allowed fee recipient set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+
+## Setting up 1 EVM.
+
+==========================
+
+Chain 1868
+
+Estimated gas price: 0.000001003 gwei
+
+Estimated total gas used for script: 6463023
+
+Estimated amount required: 0.000000006482412069 ETH
+
+==========================
+
+SIMULATION COMPLETE. To broadcast these transactions, add --broadcast and wallet configuration(s) to the previous command. See forge script --help for more.
+
+Transactions saved to: /Users/mario/op/score-seadrop/broadcast/DeployAndConfigureScore.sol/1868/dry-run/run-latest.json
+
+Sensitive values saved to: /Users/mario/op/score-seadrop/cache/DeployAndConfigureScore.sol/1868/dry-run/run-latest.json
+
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   took 10s 
+➜ forge script script/DeployAndConfigureScore.sol:DeployAndConfigureScore \
+  --rpc-url "$SONEIUM_RPC_URL" \
+  --private-key "$MAINNET_PRIVATE_KEY"
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+❯ # Deploy and verify contract
+forge script script/DeployAndConfigureScore.sol:DeployAndConfigureScore \
+  --rpc-url "$SONEIUM_RPC_URL" \
+  --private-key "$MAINNET_PRIVATE_KEY" \
+  --broadcast \
+  --verify \
+  --verifier blockscout \
+  --verifier-url "https://soneium.blockscout.com/api" \
+  -vvvv
+zsh: command not found: #
+[⠊] Compiling...
+[⠒] Compiling 1 files with Solc 0.8.17
+[⠑] Solc 0.8.17 finished in 2.57s
+Compiler run successful!
+2026-04-13T09:13:29.164839Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.165344Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.169459Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.170670Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.177013Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.208910Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.213916Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.223373Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.229061Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.229813Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.254618Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.269824Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.271642Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.271713Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x6893371fcbfb910eeda3ee43a534c24578f9436f\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.290881Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.317028Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7109709ecfa91a80626ff3989d68f67f5b1dd12d\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.319210Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T09:13:29.328952Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+Traces:
+  [4511132] DeployAndConfigureScore::run()
+    ├─ [0] VM::startBroadcast()
+    │   └─ ← [Return]
+    ├─ [0] console::log("Start time: %s", 1776236400 [1.776e9]) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [0] console::log("End time: %s", 1777446000 [1.777e9]) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [4090353] → new ScoreSeason8@0x6893371fcbfb910eeda3ee43A534C24578f9436F
+    │   ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   ├─ emit SeaDropTokenDeployed()
+    │   └─ ← [Return] 19299 bytes of code
+    ├─ [23860] ScoreSeason8::setMaxSupply(45000 [4.5e4])
+    │   ├─ emit MaxSupplyUpdated(newMaxSupply: 45000 [4.5e4])
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Token max supply set to: %s", 45000 [4.5e4]) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [92021] ScoreSeason8::setBaseURI("ipfs://bafkreiailhniiugc2y2od5qrtha6bodewvyg3sfjqqu6grijizyyxaeg2u")
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Token base URI set to: %s", "ipfs://bafkreiailhniiugc2y2od5qrtha6bodewvyg3sfjqqu6grijizyyxaeg2u") [staticcall]
+    │   └─ ← [Stop]
+    ├─ [92074] ScoreSeason8::setContractURI("ipfs://bafkreia4aq7rxndrknh2xykf7fogmxirbuymfgeqekkeyfxbpimyfycezm")
+    │   ├─ emit ContractURIUpdated(newContractURI: "ipfs://bafkreia4aq7rxndrknh2xykf7fogmxirbuymfgeqekkeyfxbpimyfycezm")
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Token contract URI set to: %s", "ipfs://bafkreia4aq7rxndrknh2xykf7fogmxirbuymfgeqekkeyfxbpimyfycezm") [staticcall]
+    │   └─ ← [Stop]
+    ├─ [28822] ScoreSeason8::updateCreatorPayoutAddress(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   ├─ [25016] SeaDrop::updateCreatorPayoutAddress(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   │   ├─ [468] ScoreSeason8::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit CreatorPayoutAddressUpdated(nftContract: ScoreSeason8: [0x6893371fcbfb910eeda3ee43A534C24578f9436F], newPayoutAddress: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Creator payout address set to: %s", 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [71574] ScoreSeason8::updateAllowedFeeRecipient(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    │   ├─ [70173] SeaDrop::updateAllowedFeeRecipient(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    │   │   ├─ [468] ScoreSeason8::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit AllowedFeeRecipientUpdated(nftContract: ScoreSeason8: [0x6893371fcbfb910eeda3ee43A534C24578f9436F], feeRecipient: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, allowed: true)
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Allowed fee recipient set to: %s", 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [30330] ScoreSeason8::updatePublicDrop(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], PublicDrop({ mintPrice: 1000000000000000000000 [1e21], startTime: 1776236400 [1.776e9], endTime: 1777446000 [1.777e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   ├─ [28411] SeaDrop::updatePublicDrop(PublicDrop({ mintPrice: 1000000000000000000000 [1e21], startTime: 1776236400 [1.776e9], endTime: 1777446000 [1.777e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   │   ├─ [468] ScoreSeason8::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ emit PublicDropUpdated(nftContract: ScoreSeason8: [0x6893371fcbfb910eeda3ee43A534C24578f9436F], publicDrop: PublicDrop({ mintPrice: 1000000000000000000000 [1e21], startTime: 1776236400 [1.776e9], endTime: 1777446000 [1.777e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+
+Script ran successfully.
+
+== Logs ==
+  Start time: 1776236400
+  End time: 1777446000
+  Token max supply set to: 45000
+  Token base URI set to: ipfs://bafkreiailhniiugc2y2od5qrtha6bodewvyg3sfjqqu6grijizyyxaeg2u
+  Token contract URI set to: ipfs://bafkreia4aq7rxndrknh2xykf7fogmxirbuymfgeqekkeyfxbpimyfycezm
+  Creator payout address set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+  Allowed fee recipient set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+
+## Setting up 1 EVM.
+==========================
+Simulated On-chain Traces:
+
+  [4090353] → new ScoreSeason8@0x6893371fcbfb910eeda3ee43A534C24578f9436F
+    ├─ emit OwnershipTransferred(previousOwner: 0x0000000000000000000000000000000000000000, newOwner: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    ├─ emit SeaDropTokenDeployed()
+    └─ ← [Return] 19299 bytes of code
+
+  [27860] ScoreSeason8::setMaxSupply(45000 [4.5e4])
+    ├─ emit MaxSupplyUpdated(newMaxSupply: 45000 [4.5e4])
+    └─ ← [Stop]
+
+  [96021] ScoreSeason8::setBaseURI("ipfs://bafkreiailhniiugc2y2od5qrtha6bodewvyg3sfjqqu6grijizyyxaeg2u")
+    └─ ← [Stop]
+
+  [94074] ScoreSeason8::setContractURI("ipfs://bafkreia4aq7rxndrknh2xykf7fogmxirbuymfgeqekkeyfxbpimyfycezm")
+    ├─ emit ContractURIUpdated(newContractURI: "ipfs://bafkreia4aq7rxndrknh2xykf7fogmxirbuymfgeqekkeyfxbpimyfycezm")
+    └─ ← [Stop]
+
+  [32822] ScoreSeason8::updateCreatorPayoutAddress(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    ├─ [25016] SeaDrop::updateCreatorPayoutAddress(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   ├─ [468] ScoreSeason8::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit CreatorPayoutAddressUpdated(nftContract: ScoreSeason8: [0x6893371fcbfb910eeda3ee43A534C24578f9436F], newPayoutAddress: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C)
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+  [78074] ScoreSeason8::updateAllowedFeeRecipient(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    ├─ [70173] SeaDrop::updateAllowedFeeRecipient(0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, true)
+    │   ├─ [468] ScoreSeason8::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit AllowedFeeRecipientUpdated(nftContract: ScoreSeason8: [0x6893371fcbfb910eeda3ee43A534C24578f9436F], feeRecipient: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C, allowed: true)
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+  [36830] ScoreSeason8::updatePublicDrop(SeaDrop: [0x00005EA00Ac477B1030CE78506496e8C2dE24bf5], PublicDrop({ mintPrice: 1000000000000000000000 [1e21], startTime: 1776236400 [1.776e9], endTime: 1777446000 [1.777e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    ├─ [28411] SeaDrop::updatePublicDrop(PublicDrop({ mintPrice: 1000000000000000000000 [1e21], startTime: 1776236400 [1.776e9], endTime: 1777446000 [1.777e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   ├─ [468] ScoreSeason8::supportsInterface(0x1890fe8e) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit PublicDropUpdated(nftContract: ScoreSeason8: [0x6893371fcbfb910eeda3ee43A534C24578f9436F], publicDrop: PublicDrop({ mintPrice: 1000000000000000000000 [1e21], startTime: 1776236400 [1.776e9], endTime: 1777446000 [1.777e9], maxTotalMintableByWallet: 1, feeBps: 0, restrictFeeRecipients: false }))
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+
+==========================
+
+Chain 1868
+
+Estimated gas price: 0.000000994 gwei
+
+Estimated total gas used for script: 6463023
+
+Estimated amount required: 0.000000006424244862 ETH
+
+==========================
+
+##### soneium
+✅  [Success] Hash: 0x7caa988e47f920224cced101299c65cd096d673babad23e81c46828a9c7174b1
+Block: 21468432
+Paid: 0.000000000024341696 ETH (49076 gas * 0.000000496 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0xc29c1b003b7527417e474b4a1387c0c89ed25b88ca77e51c5ccb02141aa2f9f2
+Block: 21468432
+Paid: 0.000000000058796336 ETH (118541 gas * 0.000000496 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0xb32b295557f265bad52935cb7b6c562774ebfbeab3d984816ab9bc42ba228ffb
+Contract Address: 0x6893371fcbfb910eeda3ee43A534C24578f9436F
+Block: 21468432
+Paid: 0.000000002200470768 ETH (4436433 gas * 0.000000496 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0xd0f79084e5e82869745c3142838e15ebc874e715dadf999b5c810c53ab5e46d9
+Block: 21468432
+Paid: 0.000000000057830624 ETH (116594 gas * 0.000000496 gwei)
+
+⠠ Sequence #1 on soneium | Waiting for pending transactions
+    ⢀ [Pending] 0x3b2df9d7616c5501539bb2866f8575ef87910e4c12dc08448e78f60dc044ec64
+    ⠐ [Pending] 0xb816f5173d5b1af8c0e8d827a5d03f5d12536297926804283521e0f04286162d
+⠂ Sequence #1 on soneium | Waiting for pending transactions
+    ⠄ [Pending] 0x3b2df9d7616c5501539bb2866f8575ef87910e4c12dc08448e78f60dc044ec64
+    ⡀ [Pending] 0xb816f5173d5b1af8c0e8d827a5d03f5d12536297926804283521e0f04286162d
+    ⠂ [Pending] 0xe5a7ec9b642cd63a695ce9e10000328cb9c2730c8632dd82c627417b8428c98a
+    ⠄ [02:35:30] [#################################################################] 7/7 txes (0.0s)
+    ⠄ [02:35:30] [##################################>--------------------------] 4/7 receipts (0.0s)^C
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   took 2h35m38s 
+❯ forge script script/DeployAndConfigureScore.sol:DeployAndConfigureScore \
+  --rpc-url "$SONEIUM_RPC_URL" \
+  --private-key "$MAINNET_PRIVATE_KEY" \
+  --broadcast \
+  --resume
+
+[⠊] Compiling...
+No files changed, compilation skipped
+
+##### soneium
+✅  [Success] Hash: 0xd0f79084e5e82869745c3142838e15ebc874e715dadf999b5c810c53ab5e46d9
+Block: 21468432
+Paid: 0.000000000057830624 ETH (116594 gas * 0.000000496 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x7caa988e47f920224cced101299c65cd096d673babad23e81c46828a9c7174b1
+Block: 21468432
+Paid: 0.000000000024341696 ETH (49076 gas * 0.000000496 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0xc29c1b003b7527417e474b4a1387c0c89ed25b88ca77e51c5ccb02141aa2f9f2
+Block: 21468432
+Paid: 0.000000000058796336 ETH (118541 gas * 0.000000496 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0xb32b295557f265bad52935cb7b6c562774ebfbeab3d984816ab9bc42ba228ffb
+Contract Address: 0x6893371fcbfb910eeda3ee43A534C24578f9436F
+Block: 21468432
+Paid: 0.000000002200470768 ETH (4436433 gas * 0.000000496 gwei)
+
+⢀ Sequence #1 on soneium | Waiting for pending transactions
+    ⠠ [Pending] 0x3b2df9d7616c5501539bb2866f8575ef87910e4c12dc08448e78f60dc044ec64
+    ⢀ [Pending] 0xb816f5173d5b1af8c0e8d827a5d03f5d12536297926804283521e0f04286162d
+    ⡀ [Pending] 0xe5a7ec9b642cd63a695ce9e10000328cb9c2730c8632dd82c627417b8428c98a
+    ⠂ [00:05:54] [#################################################################] 7/7 txes (0.0s)
+    ⠂ [00:05:54] [########################>-----------------] 4/7 receipts (18446744073709551616.0s)^C
+[WARN] - (starship::utils): Executing command "/opt/homebrew/bin/git" timed out.                    
+[WARN] - (starship::utils): You can set command_timeout in your config to a higher value to allow longer-running commands to keep executing.
+
+score-seadrop on  season8 via  v22.21.1 on ☁️   took 5m55s 
+❯ forge script script/DeployAndConfigureScore.sol:DeployAndConfigureScore \
+  --rpc-url "$SONEIUM_RPC_URL" \
+  --private-key "$MAINNET_PRIVATE_KEY" \
+  --broadcast \
+  --skip-simulation \
+  --gas-estimate-multiplier 200
+
+[⠊] Compiling...
+No files changed, compilation skipped
+2026-04-13T11:55:06.225470Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x2e4a91b1a76d0cbccc31526a1a6cf81dd9897e0c\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.225940Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x2e4a91b1a76d0cbccc31526a1a6cf81dd9897e0c\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.225972Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x2e4a91b1a76d0cbccc31526a1a6cf81dd9897e0c\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.225995Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x2e4a91b1a76d0cbccc31526a1a6cf81dd9897e0c\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.261375Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.277159Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x2e4a91b1a76d0cbccc31526a1a6cf81dd9897e0c\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.277228Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x2e4a91b1a76d0cbccc31526a1a6cf81dd9897e0c\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.303209Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x2e4a91b1a76d0cbccc31526a1a6cf81dd9897e0c\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.306254Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.320131Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x2e4a91b1a76d0cbccc31526a1a6cf81dd9897e0c\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.321811Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.337478Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.348136Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x2e4a91b1a76d0cbccc31526a1a6cf81dd9897e0c\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.365562Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.367424Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x2e4a91b1a76d0cbccc31526a1a6cf81dd9897e0c\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.385022Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.388621Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x7109709ecfa91a80626ff3989d68f67f5b1dd12d\"}],\"status\":\"1\"}"
+2026-04-13T11:55:06.391225Z ERROR etherscan: Failed to deserialize response: data did not match any variant of untagged enum ResponseData res="{\"message\":\"OK\",\"result\":[{\"Address\":\"0x000000000000000000636f6e736f6c652e6c6f67\"}],\"status\":\"1\"}"
+Script ran successfully.
+
+== Logs ==
+  Start time: 1776236400
+  End time: 1777446000
+  Token max supply set to: 45000
+  Token base URI set to: ipfs://bafkreiailhniiugc2y2od5qrtha6bodewvyg3sfjqqu6grijizyyxaeg2u
+  Token contract URI set to: ipfs://bafkreia4aq7rxndrknh2xykf7fogmxirbuymfgeqekkeyfxbpimyfycezm
+  Creator payout address set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+  Allowed fee recipient set to: 0xEE70e6d461F0888Fd9DB60cb5B2e933adF5f4c7C
+
+SKIPPING ON CHAIN SIMULATION.
+
+##### soneium
+✅  [Success] Hash: 0x8d2c69ac0ced80da1d91700e5e5feef851128c6dd06dbcd64c08436ac9a88b3a
+Contract Address: 0x2E4A91B1a76D0Cbccc31526a1a6Cf81Dd9897E0c
+Block: 21473280
+Paid: 0.00000000199639485 ETH (4436433 gas * 0.00000045 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x34a5846e94f3f6ddd904f976e81671b6e5a0d04c8aad649014998c5ab7cb4399
+Block: 21473283
+Paid: 0.00000000002232958 ETH (49076 gas * 0.000000455 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x16e0ad54bae8aca5cb0de54251b9e90e8fb12e63673763dd6f30a17e63c62644
+Block: 21473285
+Paid: 0.000000000053817614 ETH (118541 gas * 0.000000454 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0xc74334c034fbe0e736577969f28c143b87b88154c5f775172ac621cc552f9c78
+Block: 21473288
+Paid: 0.000000000052700488 ETH (116594 gas * 0.000000452 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x0e5b20272d6912425136fcc48f2a9aaa9ea7605082fa2a4557ecdd1f8feaf59f
+Block: 21473291
+Paid: 0.000000000024623698 ETH (54598 gas * 0.000000451 gwei)
+
+⠁ Sequence #1 on soneium | Waiting for pending transactions
+    ⠁ [Pending] 0x6bd8e681328d0ada882e53b920a28c0e20b577a6e851fb7225152cb6ffefbcf6
+⢀ Sequence #1 on soneium | Waiting for pending transactions
+    ⢀ [Pending] 0x6bd8e681328d0ada882e53b920a28c0e20b577a6e851fb7225152cb6ffefbcf6
+
+##### soneium
+✅  [Success] Hash: 0x6bd8e681328d0ada882e53b920a28c0e20b577a6e851fb7225152cb6ffefbcf6
+Block: 21473293
+Paid: 0.00000000004509549 ETH (99990 gas * 0.000000451 gwei)
+
+
+##### soneium
+✅  [Success] Hash: 0x33649116ce88df42fec1a4238fb4c75db6f666a6eea0c1508e7da3c4d901750e
+Block: 21473296
+Paid: 0.000000000026816694 ETH (59198 gas * 0.000000453 gwei)
+
+✅ Sequence #1 on soneium | Total Paid: 0.000000002221778414 ETH (4934430 gas * avg 0.000000452 gwei)
+                                                                                                    
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+
+Transactions saved to: /Users/mario/op/score-seadrop/broadcast/DeployAndConfigureScore.sol/1868/run-latest.json
+
+Sensitive values saved to: /Users/mario/op/score-seadrop/cache/DeployAndConfigureScore.sol/1868/run-latest.json
+
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   took 42s 
+➜ forge verify-contract \
+  0x6893371fcbfb910eeda3ee43A534C24578f9436F \
+  src/ScoreSeason8.sol:ScoreSeason8 \
+  --rpc-url "$SONEIUM_RPC_URL" \
+  --verifier blockscout \
+  --verifier-url "https://soneium.blockscout.com/api"
+
+score-seadrop on  season8 via  v22.21.1 on ☁️   
+❯ forge verify-contract \
+  0x2E4A91B1a76D0Cbccc31526a1a6Cf81Dd9897E0c \
+  src/ScoreSeason8.sol:ScoreSeason8 \
+  --rpc-url "$SONEIUM_RPC_URL" \
+  --verifier blockscout \
+  --verifier-url "https://soneium.blockscout.com/api"
+
+Start verifying contract `0x2E4A91B1a76D0Cbccc31526a1a6Cf81Dd9897E0c` deployed on soneium
+
+Contract [src/ScoreSeason8.sol:ScoreSeason8] "0x2E4A91B1a76D0Cbccc31526a1a6Cf81Dd9897E0c" is already verified. Skipping verification.
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+➜ forge clean && forge build
+[⠊] Compiling...
+[⠰] Compiling 89 files with Solc 0.8.17
+[⠔] Solc 0.8.17 finished in 11.76s
+Compiler run successful with warnings:
+Warning (2018): Function state mutability can be restricted to view
+  --> test/foundry/ERC721TransferValidator.t.sol:86:5:
+   |
+86 |     function testGetTransferValidationFunction() public {
+   |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (5574): Contract code size is 28077 bytes and exceeds 24576 bytes (a limit introduced in Spurious Dragon). This contract may not be deployable on Mainnet. Consider enabling the optimizer (with a low "runs" value!), turning off revert strings, or using libraries.
+  --> script/DeploySeaDropCloneFactory.s.sol:10:1:
+   |
+10 | contract DeploySeaDropCloneFactory is BaseCreate2Script {
+   | ^ (Relevant source part starts here and spans across multiple lines).
+
+note[unused-import]: unused imports should be removed
+ --> src/shim/Shim.sol:9:10
+  |
+9 | import { TestERC721 } from "../test/TestERC721.sol";
+  |          ^^^^^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[mixed-case-variable]: mutable variables should use mixedCase
+   --> src/lib/SeaDropStructs.sol:119:14
+    |
+119 |     string[] publicKeyURIs;
+    |              ^^^^^^^^^^^^^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-variable
+
+note[screaming-snake-case-immutable]: immutables should use SCREAMING_SNAKE_CASE
+ --> src/clones/ERC721SeaDropCloneFactory.sol:9:30
+  |
+9 |     address public immutable seaDropCloneableUpgradeableImplementation;
+  |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#screaming-snake-case-immutable
+
+note[unused-import]: unused imports should be removed
+ --> test/foundry/SeaDrop-mintAllowList.t.sol:6:10
+  |
+6 | import { SeaDrop } from "seadrop/SeaDrop.sol";
+  |          ^^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[unwrapped-modifier-logic]: wrap modifier logic to reduce code size
+   --> src/SeaDrop.sol:156:14
+    |
+156 |     modifier onlyINonFungibleSeaDropToken() virtual {
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: wrap modifier logic to reduce code size
+            
+            - modifier onlyINonFungibleSeaDropToken() virtual {
+            -     if (
+            -         !IERC165(msg.sender).supportsInterface(
+            -             type(INonFungibleSeaDropToken).interfaceId
+            -         )
+            -     ) {
+            -         revert OnlyINonFungibleSeaDropToken(msg.sender);
+            -     }
+            -     _;
+            - }
+            + modifier onlyINonFungibleSeaDropToken() {
+            +     _onlyINonFungibleSeaDropToken();
+            +     _;
+            + }
+            + 
+            + function _onlyINonFungibleSeaDropToken() internal {
+            +     if (
+            +         !IERC165(msg.sender).supportsInterface(
+            +             type(INonFungibleSeaDropToken).interfaceId
+            +         )
+            +     ) {
+            +         revert OnlyINonFungibleSeaDropToken(msg.sender);
+            +     }
+            + }
+            
+            
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#unwrapped-modifier-logic
+
+note[mixed-case-variable]: mutable variables should use mixedCase
+  --> src/clones/ERC721ContractMetadataCloneable.sol:49:12
+   |
+49 |     string _tokenBaseURI;
+   |            ^^^^^^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-variable
+
+note[mixed-case-variable]: mutable variables should use mixedCase
+  --> src/clones/ERC721ContractMetadataCloneable.sol:52:12
+   |
+52 |     string _contractURI;
+   |            ^^^^^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-variable
+
+note[named-struct-fields]: prefer initializing structs with named fields
+  --> test/foundry/SeaDrop-mintAllowList.t.sol:77:40
+   |
+77 |           MintParams memory mintParams = MintParams(
+   |  ________________________________________^
+78 | |             0.1 ether, // mint price
+79 | |             10, // max mints per wallet
+80 | |             uint48(block.timestamp), // start time
+...  |
+85 | |             false // if false, allow any fee recipient
+86 | |         );
+   | |_________^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[mixed-case-variable]: mutable variables should use mixedCase
+   --> test/foundry/SeaDropSnapshot.t.sol:104:25
+    |
+104 |         string[] memory publicKeyURIs = new string[](0);
+    |                         ^^^^^^^^^^^^^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-variable
+
+note[mixed-case-function]: function names should use mixedCase
+   --> src/clones/ERC721ACloneable.sol:144:14
+    |
+144 |     function __ERC721ACloneable__init(
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-function
+
+note[asm-keccak256]: use of inefficient hashing mechanism; consider using inline assembly
+  --> src/clones/ERC721SeaDropCloneFactory.sol:26:29
+   |
+26 |           bytes32 cloneSalt = keccak256(
+   |  _____________________________^
+27 | |             abi.encodePacked(salt, blockhash(block.number))
+28 | |         );
+   | |_________^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#asm-keccak256
+
+note[unused-import]: unused imports should be removed
+  --> src/shim/Shim.sol:10:10
+   |
+10 | import { MaliciousRecipient } from "../test/MaliciousRecipient.sol";
+   |          ^^^^^^^^^^^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:98:46
+    |
+ 98 |           AllowListData memory allowListData = AllowListData(
+    |  ______________________________________________^
+ 99 | |             root,
+100 | |             emptyStringArray,
+101 | |             "test"
+102 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:131:40
+    |
+131 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+132 | |             0.1 ether, // mint price
+133 | |             10, // max mints per wallet
+134 | |             uint48(block.timestamp), // start time
+...   |
+139 | |             false // if false, allow any fee recipient
+140 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:161:46
+    |
+161 |           AllowListData memory allowListData = AllowListData(
+    |  ______________________________________________^
+162 | |             root,
+163 | |             emptyStringArray,
+164 | |             "test"
+165 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+  --> test/foundry/SeaDropSnapshot.t.sol:64:40
+   |
+64 |           PublicDrop memory publicDrop = PublicDrop(
+   |  ________________________________________^
+65 | |             0.1 ether, // mint price
+66 | |             uint48(block.timestamp), // start time
+67 | |             uint48(block.timestamp) + 100, // end time
+...  |
+70 | |             false // if false, allow any fee recipient
+71 | |         );
+   | |_________^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[mixed-case-function]: function names should use mixedCase
+   --> src/clones/ERC721ACloneable.sol:334:14
+    |
+334 |     function _baseURI() internal view virtual returns (string memory) {
+    |              ^^^^^^^^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-function
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:195:40
+    |
+195 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+196 | |             0.1 ether, // mint price
+197 | |             10, // max mints per wallet
+198 | |             uint48(block.timestamp), // start time
+...   |
+203 | |             false // if false, allow any fee recipient
+204 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:225:46
+    |
+225 |           AllowListData memory allowListData = AllowListData(
+    |  ______________________________________________^
+226 | |             root,
+227 | |             emptyStringArray,
+228 | |             "test"
+229 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+  --> test/foundry/SeaDropSnapshot.t.sol:97:36
+   |
+97 |                 abi.encode(address(uint160(i + 1)), mintParams)
+   |                                    ^^^^^^^^^^^^^^
+   |
+   = note: Consider disabling this lint if you're certain the cast is safe:
+           
+           // casting to 'uint160' is safe because [explain why]
+           // forge-lint: disable-next-line(unsafe-typecast)
+           
+           
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+note[mixed-case-function]: function names should use mixedCase
+   --> src/clones/ERC721ACloneable.sol:799:14
+    |
+799 |     function _checkContractOnERC721Received(
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-function
+
+note[unused-import]: unused imports should be removed
+  --> src/ERC721SeaDrop.sol:26:10
+   |
+26 | import { ERC721A } from "ERC721A/ERC721A.sol";
+   |          ^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:266:40
+    |
+266 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+267 | |             0.1 ether, // mint price
+268 | |             10, // max mints per wallet
+269 | |             uint48(block.timestamp), // start time
+...   |
+274 | |             false // if false, allow any fee recipient
+275 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[asm-keccak256]: use of inefficient hashing mechanism; consider using inline assembly
+   --> src/SeaDrop.sol:825:16
+    |
+825 |           return keccak256(
+    |  ________________^
+826 | |             abi.encode(
+827 | |                 _EIP_712_DOMAIN_TYPEHASH,
+828 | |                 _NAME_HASH,
+...   |
+833 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#asm-keccak256
+
+warning[incorrect-shift]: the order of args in a shift operation is incorrect
+   --> src/clones/ERC721ACloneable.sol:858:19
+    |
+858 |                 ((1 << _BITPOS_NUMBER_MINTED) | 1);
+    |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#incorrect-shift
+
+note[named-struct-fields]: prefer initializing structs with named fields
+  --> test/foundry/SeaDrop-mintSigned.t.sol:71:40
+   |
+71 |           MintParams memory mintParams = MintParams(
+   |  ________________________________________^
+72 | |             0.1 ether, // mint price
+73 | |             10, // max mints per wallet
+74 | |             uint48(block.timestamp), // start time
+...  |
+79 | |             true // if false, allow any fee recipient
+80 | |         );
+   | |_________^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[unused-import]: unused imports should be removed
+ --> test/foundry/SeaDrop-mintPublic.t.sol:6:10
+  |
+6 | import { SeaDrop } from "seadrop/SeaDrop.sol";
+  |          ^^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[mixed-case-function]: function names should use mixedCase
+   --> src/clones/ERC721ContractMetadataCloneable.sol:223:14
+    |
+223 |     function _baseURI() internal view virtual override returns (string memory) {
+    |              ^^^^^^^^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-function
+
+note[mixed-case-function]: function names should use mixedCase
+   --> src/clones/ERC721ACloneable.sol:931:14
+    |
+931 |     function _mintERC2309(address to, uint256 quantity) internal virtual {
+    |              ^^^^^^^^^^^^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-function
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:131:40
+    |
+131 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+132 | |             0.1 ether, // mint price
+133 | |             10, // max mints per wallet
+134 | |             uint48(block.timestamp), // start time
+...   |
+139 | |             true // if false, allow any fee recipient
+140 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[mixed-case-variable]: mutable variables should use mixedCase
+  --> src/ERC721ContractMetadata.sol:47:12
+   |
+47 |     string _tokenBaseURI;
+   |            ^^^^^^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-variable
+
+note[mixed-case-variable]: mutable variables should use mixedCase
+  --> src/ERC721ContractMetadata.sol:50:12
+   |
+50 |     string _contractURI;
+   |            ^^^^^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-variable
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:296:46
+    |
+296 |           AllowListData memory allowListData = AllowListData(
+    |  ______________________________________________^
+297 | |             root,
+298 | |             emptyStringArray,
+299 | |             "test"
+300 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:231:40
+    |
+231 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+232 | |             0.1 ether, // mint price
+233 | |             10, // max mints per wallet
+234 | |             uint48(block.timestamp), // start time
+...   |
+239 | |             false // if false, allow any fee recipient
+240 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+  --> test/foundry/SeaDrop-mintPublic.t.sol:35:40
+   |
+35 |           PublicDrop memory publicDrop = PublicDrop(
+   |  ________________________________________^
+36 | |             0.1 ether, // mint price
+37 | |             uint48(block.timestamp), // start time
+38 | |             uint48(block.timestamp) + 100, // end time
+...  |
+41 | |             false // if false, allow any fee recipient
+42 | |         );
+   | |_________^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+  --> test/foundry/SeaDrop-mintPublic.t.sol:53:40
+   |
+53 |           PublicDrop memory publicDrop = PublicDrop(
+   |  ________________________________________^
+54 | |             1 ether, // mint price
+55 | |             uint48(block.timestamp), // start time
+56 | |             uint48(block.timestamp) + 100, // end time
+...  |
+61 | |         );
+   | |_________^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[unused-import]: unused imports should be removed
+  --> test/foundry/SeaDrop.t.sol:11:5
+   |
+11 |     AllowListData,
+   |     ^^^^^^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[unused-import]: unused imports should be removed
+  --> test/foundry/SeaDrop.t.sol:12:5
+   |
+12 |     MintParams,
+   |     ^^^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[unused-import]: unused imports should be removed
+  --> test/foundry/SeaDrop.t.sol:13:5
+   |
+13 |     PublicDrop,
+   |     ^^^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[asm-keccak256]: use of inefficient hashing mechanism; consider using inline assembly
+    --> src/SeaDrop.sol:1396:40
+     |
+1396 |           bytes32 mintParamsHashStruct = keccak256(
+     |  ________________________________________^
+1397 | |             abi.encode(
+1398 | |                 _MINT_PARAMS_TYPEHASH,
+1399 | |                 mintParams.mintPrice,
+...    |
+1408 | |         );
+     | |_________^
+     |
+     = help: https://book.getfoundry.sh/reference/forge/forge-lint#asm-keccak256
+
+warning[incorrect-shift]: the order of args in a shift operation is incorrect
+   --> src/clones/ERC721ACloneable.sol:949:19
+    |
+949 |                 ((1 << _BITPOS_NUMBER_MINTED) | 1);
+    |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#incorrect-shift
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:332:40
+    |
+332 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+333 | |             0.1 ether, // mint price
+334 | |             10, // max mints per wallet
+335 | |             uint48(block.timestamp), // start time
+...   |
+340 | |             true // if true, only allowed fee recipients
+341 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:362:46
+    |
+362 |           AllowListData memory allowListData = AllowListData(
+    |  ______________________________________________^
+363 | |             root,
+364 | |             emptyStringArray,
+365 | |             "test"
+366 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:398:40
+    |
+398 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+399 | |             0.1 ether, // mint price
+400 | |             10, // max mints per wallet
+401 | |             uint48(block.timestamp), // start time
+...   |
+406 | |             false // if false, allow any fee recipient
+407 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:428:46
+    |
+428 |           AllowListData memory allowListData = AllowListData(
+    |  ______________________________________________^
+429 | |             root,
+430 | |             emptyStringArray,
+431 | |             "test"
+432 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> test/foundry/utils/TestHelper.sol:4:8
+  |
+4 | import "forge-std/Test.sol";
+  |        ^^^^^^^^^^^^^^^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[mixed-case-function]: function names should use mixedCase
+   --> src/ERC721ContractMetadata.sol:228:14
+    |
+228 |     function _baseURI() internal view virtual override returns (string memory) {
+    |              ^^^^^^^^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-function
+
+warning[incorrect-shift]: the order of args in a shift operation is incorrect
+    --> src/clones/ERC721ACloneable.sol:1088:42
+     |
+1088 |             _packedAddressData[from] += (1 << _BITPOS_NUMBER_BURNED) - 1;
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: https://book.getfoundry.sh/reference/forge/forge-lint#incorrect-shift
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:320:40
+    |
+320 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+321 | |             0 ether, // mint price (free)
+322 | |             10, // max mints per wallet
+323 | |             uint48(block.timestamp), // start time
+...   |
+328 | |             true // if false, allow any fee recipient
+329 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:377:40
+    |
+377 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+378 | |             0.1 ether, // mint price
+379 | |             10, // max mints per wallet
+380 | |             uint48(block.timestamp), // start time
+...   |
+385 | |             true // restrictFeeRecipient
+386 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> script/DeployAndConfigureScore.sol:5:8
+  |
+5 | import "forge-std/Script.sol";
+  |        ^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[unused-import]: unused imports should be removed
+  --> test/foundry/SeaDrop.t.sol:15:5
+   |
+15 |     TokenGatedMintParams,
+   |     ^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[unaliased-plain-import]: use named imports '{A, B}' or alias 'import ".." as X'
+ --> script/DeployAndConfigureExampleToken.s.sol:4:8
+  |
+4 | import "forge-std/Script.sol";
+  |        ^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unaliased-plain-import
+
+note[mixed-case-function]: function names should use mixedCase
+    --> src/clones/ERC721ACloneable.sol:1187:14
+     |
+1187 |     function _msgSenderERC721A() internal view virtual returns (address) {
+     |              ^^^^^^^^^^^^^^^^^
+     |
+     = help: https://book.getfoundry.sh/reference/forge/forge-lint#mixed-case-function
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:470:40
+    |
+470 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+471 | |             0 ether, // mint price (free)
+472 | |             10, // max mints per wallet
+473 | |             uint48(block.timestamp), // start time
+...   |
+478 | |             false // if false, allow any fee recipient
+479 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowList.t.sol:500:46
+    |
+500 |           AllowListData memory allowListData = AllowListData(
+    |  ______________________________________________^
+501 | |             root,
+502 | |             emptyStringArray,
+503 | |             "test"
+504 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:445:40
+    |
+445 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+446 | |             0.1 ether, // mint price
+447 | |             10, // max mints per wallet
+448 | |             uint48(block.timestamp), // start time
+...   |
+453 | |             false // restrictFeeRecipient
+454 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+  --> script/DeployAndConfigureExampleToken.s.sol:46:13
+   |
+46 | /             PublicDrop(
+47 | |                 mintPrice,
+48 | |                 uint48(block.timestamp), // start time
+49 | |                 uint48(block.timestamp) + 1000, // end time
+...  |
+52 | |                 true
+53 | |             )
+   | |_____________^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[unused-import]: unused imports should be removed
+ --> script/DeploySeaDropCloneFactory.s.sol:4:10
+  |
+4 | import { Script, console2 } from "forge-std/Script.sol";
+  |          ^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[unused-import]: unused imports should be removed
+ --> script/DeploySeaDropCloneFactory.s.sol:4:18
+  |
+4 | import { Script, console2 } from "forge-std/Script.sol";
+  |                  ^^^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:512:40
+    |
+512 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+513 | |             0.1 ether, // mint price
+514 | |             10, // max mints per wallet
+515 | |             uint48(block.timestamp), // start time
+...   |
+520 | |             true // restrictFeeRecipient
+521 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+  --> test/foundry/ERC721SeaDropCloneFactory.t.sol:22:47
+   |
+22 |         factory.createClone("name", "symbol", bytes32("1"));
+   |                                               ^^^^^^^^^^^^
+   |
+   = note: Consider disabling this lint if you're certain the cast is safe:
+           
+           // casting to 'bytes32' is safe because [explain why]
+           // forge-lint: disable-next-line(unsafe-typecast)
+           
+           
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+note[unused-import]: unused imports should be removed
+  --> src/clones/ERC721SeaDropCloneable.sol:26:10
+   |
+26 | import { ERC721ACloneable } from "./ERC721ACloneable.sol";
+   |          ^^^^^^^^^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[unused-import]: unused imports should be removed
+ --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:8:10
+  |
+8 | import { SeaDrop } from "seadrop/SeaDrop.sol";
+  |          ^^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:572:40
+    |
+572 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+573 | |             0.1 ether, // mint price
+574 | |             10, // max mints per wallet
+575 | |             uint48(block.timestamp), // start time
+...   |
+580 | |             true // restrictFeeRecipient
+581 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:636:40
+    |
+636 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+637 | |             0.1 ether, // mint price
+638 | |             1001, // max mints per wallet
+639 | |             uint48(block.timestamp), // start time
+...   |
+644 | |             true // restrictFeeRecipient
+645 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintPublic.t.sol:142:40
+    |
+142 |           PublicDrop memory publicDrop = PublicDrop(
+    |  ________________________________________^
+143 | |             0 ether, // mint price (free)
+144 | |             uint48(block.timestamp), // start time
+145 | |             uint48(block.timestamp) + 100, // end time
+...   |
+148 | |             false // if false, allow any fee recipient
+149 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+   --> src/clones/ERC721ACloneable.sol:243:16
+    |
+243 |         return uint64(_packedAddressData[owner] >> _BITPOS_AUX);
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: Consider disabling this lint if you're certain the cast is safe:
+            
+            // casting to 'uint64' is safe because [explain why]
+            // forge-lint: disable-next-line(unsafe-typecast)
+            
+            
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:700:40
+    |
+700 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+701 | |             0.1 ether, // mint price
+702 | |             5, // max mints per wallet
+703 | |             uint48(block.timestamp), // start time
+...   |
+708 | |             true // restrictFeeRecipient
+709 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[unused-import]: unused imports should be removed
+ --> script/DeployAndConfigureScore.sol:9:10
+  |
+9 | import { ERC721SeaDrop } from "../src/ERC721SeaDrop.sol";
+  |          ^^^^^^^^^^^^^
+  |
+  = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[unused-import]: unused imports should be removed
+  --> script/DeployAndConfigureScore.sol:11:10
+   |
+11 | import { ISeaDrop } from "../src/interfaces/ISeaDrop.sol";
+   |          ^^^^^^^^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unused-import
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:760:40
+    |
+760 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+761 | |             0.1 ether, // mint price
+762 | |             5, // max mints per wallet
+763 | |             uint48(block.timestamp), // start time
+...   |
+768 | |             true // restrictFeeRecipient
+769 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+  --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:74:48
+   |
+74 |           TokenGatedDropStage memory dropStage = TokenGatedDropStage(
+   |  ________________________________________________^
+75 | |             0.1 ether, // mint price
+76 | |             200, // max mints per wallet
+77 | |             uint48(block.timestamp), // start time
+...  |
+82 | |             false // if false, allow any fee recipient
+83 | |         );
+   | |_________^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:100:50
+    |
+100 |           TokenGatedMintParams memory mintParams = TokenGatedMintParams(
+    |  __________________________________________________^
+101 | |             gateToken,
+102 | |             tokenIds
+103 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:127:48
+    |
+127 |           TokenGatedDropStage memory dropStage = TokenGatedDropStage(
+    |  ________________________________________________^
+128 | |             0.1 ether, // mint price
+129 | |             200, // max mints per wallet
+130 | |             uint48(block.timestamp), // start time
+...   |
+135 | |             false // if false, allow any fee recipient
+136 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:152:50
+    |
+152 |           TokenGatedMintParams memory mintParams = TokenGatedMintParams(
+    |  __________________________________________________^
+153 | |             gateToken,
+154 | |             tokenIds
+155 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+  --> script/DeployAndConfigureScore.sol:63:13
+   |
+63 | /             PublicDrop(
+64 | |                 mintPrice,
+65 | |                 startTime,
+66 | |                 endTime,
+...  |
+69 | |                 false
+70 | |             )
+   | |_____________^
+   |
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:820:40
+    |
+820 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+821 | |             0.1 ether, // mint price
+822 | |             5, // max mints per wallet
+823 | |             uint48(block.timestamp), // start time
+...   |
+828 | |             true // restrictFeeRecipient
+829 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+  --> test/foundry/ERC721SeaDropCloneFactory.t.sol:32:63
+   |
+32 |         address clone = factory.createClone("name", "symbol", bytes32("1"));
+   |                                                               ^^^^^^^^^^^^
+   |
+   = note: Consider disabling this lint if you're certain the cast is safe:
+           
+           // casting to 'bytes32' is safe because [explain why]
+           // forge-lint: disable-next-line(unsafe-typecast)
+           
+           
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:184:48
+    |
+184 |           TokenGatedDropStage memory dropStage = TokenGatedDropStage(
+    |  ________________________________________________^
+185 | |             0.1 ether, // mint price
+186 | |             200, // max mints per wallet
+187 | |             uint48(block.timestamp), // start time
+...   |
+192 | |             false // if false, allow any fee recipient
+193 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:209:50
+    |
+209 |           TokenGatedMintParams memory mintParams = TokenGatedMintParams(
+    |  __________________________________________________^
+210 | |             gateToken,
+211 | |             tokenIds
+212 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:884:40
+    |
+884 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+885 | |             0.1 ether, // mint price
+886 | |             5, // max mints per wallet
+887 | |             uint48(block.timestamp), // start time
+...   |
+892 | |             true // restrictFeeRecipient
+893 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+  --> test/foundry/ERC721SeaDropCloneFactory.t.sol:91:63
+   |
+91 |         address clone = factory.createClone("name", "symbol", bytes32("1"));
+   |                                                               ^^^^^^^^^^^^
+   |
+   = note: Consider disabling this lint if you're certain the cast is safe:
+           
+           // casting to 'bytes32' is safe because [explain why]
+           // forge-lint: disable-next-line(unsafe-typecast)
+           
+           
+   = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+   --> src/clones/ERC721ACloneable.sol:437:34
+    |
+437 |         ownership.addr = address(uint160(packed));
+    |                                  ^^^^^^^^^^^^^^^
+    |
+    = note: Consider disabling this lint if you're certain the cast is safe:
+            
+            // casting to 'uint160' is safe because [explain why]
+            // forge-lint: disable-next-line(unsafe-typecast)
+            
+            
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintSigned.t.sol:944:40
+    |
+944 |           MintParams memory mintParams = MintParams(
+    |  ________________________________________^
+945 | |             0.1 ether, // mint price
+946 | |             5, // max mints per wallet
+947 | |             uint48(block.timestamp), // start time
+...   |
+952 | |             true // restrictFeeRecipient
+953 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+   --> src/clones/ERC721ACloneable.sol:438:36
+    |
+438 |         ownership.startTimestamp = uint64(packed >> _BITPOS_START_TIMESTAMP);
+    |                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: Consider disabling this lint if you're certain the cast is safe:
+            
+            // casting to 'uint64' is safe because [explain why]
+            // forge-lint: disable-next-line(unsafe-typecast)
+            
+            
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+   --> src/clones/ERC721ACloneable.sol:440:31
+    |
+440 |         ownership.extraData = uint24(packed >> _BITPOS_EXTRA_DATA);
+    |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: Consider disabling this lint if you're certain the cast is safe:
+            
+            // casting to 'uint24' is safe because [explain why]
+            // forge-lint: disable-next-line(unsafe-typecast)
+            
+            
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:254:48
+    |
+254 |           TokenGatedDropStage memory dropStage = TokenGatedDropStage(
+    |  ________________________________________________^
+255 | |             0 ether, // mint price
+256 | |             200, // max mints per wallet
+257 | |             uint48(block.timestamp), // start time
+...   |
+262 | |             false // if false, allow any fee recipient
+263 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+    --> test/foundry/SeaDrop-mintSigned.t.sol:1004:40
+     |
+1004 |           MintParams memory mintParams = MintParams(
+     |  ________________________________________^
+1005 | |             0.1 ether, // mint price
+1006 | |             5, // max mints per wallet
+1007 | |             uint48(block.timestamp), // start time
+...    |
+1012 | |             false // restrictFeeRecipient
+1013 | |         );
+     | |_________^
+     |
+     = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:280:50
+    |
+280 |           TokenGatedMintParams memory mintParams = TokenGatedMintParams(
+    |  __________________________________________________^
+281 | |             gateToken,
+282 | |             tokenIds
+283 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:302:48
+    |
+302 |           TokenGatedDropStage memory dropStage = TokenGatedDropStage(
+    |  ________________________________________________^
+303 | |             0.1 ether, // mint price
+304 | |             200, // max mints per wallet
+305 | |             uint48(block.timestamp), // start time
+...   |
+310 | |             false // if false, allow any fee recipient
+311 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+   --> src/clones/ERC721ACloneable.sol:634:21
+    |
+634 |         if (address(uint160(prevOwnershipPacked)) != from)
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: Consider disabling this lint if you're certain the cast is safe:
+            
+            // casting to 'uint160' is safe because [explain why]
+            // forge-lint: disable-next-line(unsafe-typecast)
+            
+            
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:328:50
+    |
+328 |           TokenGatedMintParams memory mintParams = TokenGatedMintParams(
+    |  __________________________________________________^
+329 | |             gateToken,
+330 | |             tokenIds
+331 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:365:48
+    |
+365 |           TokenGatedDropStage memory dropStage = TokenGatedDropStage(
+    |  ________________________________________________^
+366 | |             0.1 ether, // mint price
+367 | |             200, // max mints per wallet
+368 | |             uint48(block.timestamp), // start time
+...   |
+373 | |             true // restrict fee recipients
+374 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+note[named-struct-fields]: prefer initializing structs with named fields
+   --> test/foundry/SeaDrop-mintAllowedTokenHolder.t.sol:391:50
+    |
+391 |           TokenGatedMintParams memory mintParams = TokenGatedMintParams(
+    |  __________________________________________________^
+392 | |             gateToken,
+393 | |             tokenIds
+394 | |         );
+    | |_________^
+    |
+    = help: https://book.getfoundry.sh/reference/forge/forge-lint#named-struct-fields
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+    --> src/clones/ERC721ACloneable.sol:1047:32
+     |
+1047 |         address from = address(uint160(prevOwnershipPacked));
+     |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = note: Consider disabling this lint if you're certain the cast is safe:
+             
+             // casting to 'uint160' is safe because [explain why]
+             // forge-lint: disable-next-line(unsafe-typecast)
+             
+             
+     = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+warning[unsafe-typecast]: typecasts that can truncate values should be checked
+    --> src/clones/ERC721ACloneable.sol:1174:28
+     |
+1174 |         uint24 extraData = uint24(prevOwnershipPacked >> _BITPOS_EXTRA_DATA);
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = note: Consider disabling this lint if you're certain the cast is safe:
+             
+             // casting to 'uint24' is safe because [explain why]
+             // forge-lint: disable-next-line(unsafe-typecast)
+             
+             
+     = help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+
+
+score-seadrop on  season8 via  v22.21.1 on ☁️   took 12s 
+➜ python3 -c "
+import json, glob
+f = glob.glob('artifacts/build-info/*.json')[0]
+with open(f) as fh:
+    data = json.load(fh)
+# verify it has the right contract
+sources = data['input']['sources']
+assert 'src/ScoreSeason8.sol' in sources, f'Wrong build! Sources: {[s for s in sources if \"Score\" in s]}'
+with open('standard-json-input.json', 'w') as out:
+    json.dump(data['input'], out, indent=2)
+print('Done - contains ScoreSeason8')
+"
+
+Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+    assert 'src/ScoreSeason8.sol' in sources, f'Wrong build! Sources: {[s for s in sources if "Score" in s]}'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Wrong build! Sources: ['src/ScoreSeason5.sol']
+
+score-seadrop on  season8 [🗑📝🤷‍] via  v22.21.1 on ☁️   
+❯ 

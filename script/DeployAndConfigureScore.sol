@@ -1,13 +1,10 @@
 // SPDX-License-Identifier: MIT
 
-// forge script script/DeployAndConfigureScore.s.sol --rpc-url $SEP_RPC --broadcast -vvvv --private-key $GACHA --etherscan-api-key $ETHERSCAN_API_KEY --verify --retries 10
-// forge script script/DeployAndConfigureScore.s.sol --profile score.sepolia --broadcast -vvvv --verify --retries 10
-
 pragma solidity 0.8.17;
 
 import "forge-std/Script.sol";
 
-import { ScoreSeason7 } from "../src/ScoreSeason7.sol";
+import { ScoreSeason8 } from "../src/ScoreSeason8.sol";
 
 import { ERC721SeaDrop } from "../src/ERC721SeaDrop.sol";
 
@@ -24,16 +21,16 @@ contract DeployAndConfigureScore is Script {
     // Token config
     uint256 maxSupply = 45000;
     string baseURI =
-        "ipfs://bafkreifcj2zt2gohg4falwqd7gvtwlh5nuctde65rn4csl6ans4m3mavfi"; // Score7 metadata pointing to image
+        "ipfs://bafkreiailhniiugc2y2od5qrtha6bodewvyg3sfjqqu6grijizyyxaeg2u"; // Score8 metadata pointing to image
     string contractURI =
-        "ipfs://bafkreifqv2sd4jd45qkzi2agmx7pedo72t4m3zzxle4ztrswdtzpbaqxiu"; // Score7 contract info
+        "ipfs://bafkreia4aq7rxndrknh2xykf7fogmxirbuymfgeqekkeyfxbpimyfycezm"; // Score8 contract info
 
     // Drop config
     uint16 feeBps = 0;
     uint80 mintPrice = 1000 ether;
     uint16 maxTotalMintableByWallet = 1;
-    uint48 startTime = 1773644400; // (GMT): Monday, March 16, 2026 7:00:00 AM
-    uint48 endTime = 1776063600; // (GMT): Monday, April 13, 2026 at 9:00:00 AM
+    uint48 startTime = 1776236400; // (GMT): Wednesday, April 15, 2026 at 7:00:00 AM
+    uint48 endTime = 1777446000; // (GMT): Wednesday, April 29, 2026 at 7:00:00 AM
 
 
     function run() external {
@@ -44,7 +41,7 @@ contract DeployAndConfigureScore is Script {
         address[] memory allowedSeadrop = new address[](1);
         allowedSeadrop[0] = seadrop;
 
-        ScoreSeason7 token = new ScoreSeason7();
+        ScoreSeason8 token = new ScoreSeason8();
 
         // Configure the token.
         token.setMaxSupply(maxSupply);
