@@ -7,10 +7,10 @@ NFT Awarded for Soneium Score participants with 80+ points during each Season.
 * Season 1 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season-1-badge/overview), minted 31995(32406) tokens
 * Season 2 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season2-badge/overview), minted 55940(58089) tokens
 * Season 3 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season3-badge/overview), minted 37564(38446) tokens
-* Season 4 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season4-badge/overview), minted 0(27000) tokens
-* Season 5 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season5-badge/overview), minted 0(27000) tokens
-* Season 6 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season6-badge/overview), minted 0(27000) tokens
-* Season 7 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season7-badge/overview), minted 0(45000) tokens
+* Season 4 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season4-badge/overview), minted 27356(27962) tokens
+* Season 5 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season5-badge/overview), minted 30620(31197) tokens
+* Season 6 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season6-badge/overview), minted 40607(41826) tokens
+* Season 7 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season7-badge/overview), minted 16882(17245) tokens
 * Season 8 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season8-badge/overview), minted 0(45000) tokens
 
 ## Contracts
