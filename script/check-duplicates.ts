@@ -4,7 +4,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 function checkDuplicatesInCsv(): void {
-  const csvPath = path.join(__dirname, '..', 'data', 'season6', 'testlist.csv');
+  const csvPath = path.join(__dirname, '..', 'data', 'testlist.csv');
 
   try {
     // Read the CSV file
