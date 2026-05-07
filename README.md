@@ -1,4 +1,4 @@
-<img src="data/season1/score1-image.png" width="50" height="50"> <img src="data/season2/badge2.png" width="50" height="50"> <img src="data/season3/badge3.png" width="50" height="50"> <img src="data/season4/badge4.png" width="50" height="50"> <img src="data/season5/badge5.png" width="50" height="50"> <img src="data/season6/badge6.png" width="50" height="50"> <img src="data/season7/badge7.png" width="50" height="50">
+<img src="data/season1/score1-image.png" width="50" height="50"> <img src="data/season2/badge2.png" width="50" height="50"> <img src="data/season3/badge3.png" width="50" height="50"> <img src="data/season4/badge4.png" width="50" height="50"> <img src="data/season5/badge5.png" width="50" height="50"> <img src="data/season6/badge6.png" width="50" height="50"> <img src="data/season7/badge7.png" width="50" height="50"> <img src="data/season8/badge8.png" width="50" height="50"> <img src="data/season9/badge9.png" width="50" height="50">
 
 # Score NFT - SeaDrop
 
