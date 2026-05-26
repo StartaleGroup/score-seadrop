@@ -28,3 +28,5 @@ __pycache__
 # Use typescript instead of javascript
 *.js
 *.txt
+
+data/testlist.csv
