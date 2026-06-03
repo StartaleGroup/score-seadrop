@@ -26,7 +26,8 @@
     "lint:fix:format": "prettier --write **.{sol,js,ts}",
     "lint:fix:eslint": "eslint --fix . --ext js,ts",
     "prepare": "husky install",
-    "check-duplicates": "ts-node ./script/check-duplicates.ts"
+    "check-duplicates": "ts-node ./script/check-duplicates.ts",
+    "check-owners": "ts-node ./script/check-owners.ts"
   },
   "lint-staged": {
     "*.sol": "prettier --write",
