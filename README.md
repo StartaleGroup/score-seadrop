@@ -1,4 +1,4 @@
-<img src="data/season1/score1-image.png" width="50" height="50"> <img src="data/season2/badge2.png" width="50" height="50"> <img src="data/season3/badge3.png" width="50" height="50"> <img src="data/season4/badge4.png" width="50" height="50"> <img src="data/season5/badge5.png" width="50" height="50"> <img src="data/season6/badge6.png" width="50" height="50"> <img src="data/season7/badge7.png" width="50" height="50">
+<img src="data/season1/score1-image.png" width="50" height="50"> <img src="data/season2/badge2.png" width="50" height="50"> <img src="data/season3/badge3.png" width="50" height="50"> <img src="data/season4/badge4.png" width="50" height="50"> <img src="data/season5/badge5.png" width="50" height="50"> <img src="data/season6/badge6.png" width="50" height="50"> <img src="data/season7/badge7.png" width="50" height="50"> <img src="data/season8/badge8.png" width="50" height="50"> <img src="data/season9/badge9.png" width="50" height="50">
 
 # Score NFT - SeaDrop
 
@@ -12,6 +12,7 @@ NFT Awarded for Soneium Score participants with 80+ points during each Season.
 * Season 6 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season6-badge/overview), minted 40607(41826) tokens
 * Season 7 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season7-badge/overview), minted 16882(17245) tokens
 * Season 8 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season8-badge/overview), minted 0(45000) tokens
+* Season 9 Mint on [OpenSea](https://opensea.io/collection/soneium-score-season9-badge/overview), minted 0(40000) tokens
 
 ## Contracts
 
@@ -23,3 +24,4 @@ NFT Awarded for Soneium Score participants with 80+ points during each Season.
 * Score Season6 NFT on [Blockscout](https://soneium.blockscout.com/address/0xe5a3d28fe65895d7cd7146fb50199b85fba74c3e).
 * Score Season7 NFT on [Blockscout](https://soneium.blockscout.com/address/0x8F97Ff6a07F78Fb0259f543ed032A5985F2A92Ae).
 * Score Season8 NFT on [Blockscout](https://soneium.blockscout.com/address/0x2E4A91B1a76D0Cbccc31526a1a6Cf81Dd9897E0c).
+* Score Season9 NFT on [Blockscout](https://soneium.blockscout.com/address/0x822ce419cc3298e58B8D61e64981634bBC54338c).
