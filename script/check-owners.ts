@@ -27,6 +27,8 @@ interface Contract {
 const CONTRACTS: Contract[] = [
   { season: 'Aibo', address: '0x1e807EfC2416c6CD63cb3B01Dc91232D6F02d50A' },
   { season: 'checkIn', address: '0xaB948e5724E2c29a39E5897E3b7EDCAbebF5d196' },
+  // Soneium Badge Collection — Ownable, not role-based.
+  { season: 'Soneium Badge', address: '0x2A21B17E366836e5FFB19bd47edB03b4b551C89d' },
   { season: 1, address: '0x05AB5e724848cEFeac6D303CDf94032E5Cc3552B' },
   { season: 2, address: '0x6b2f6d8216e075d3a71f4aaf21d7158af9b8dc82' },
   { season: 3, address: '0x7BF02b42b9d4cCD85b497C9F53e6b7474f9c2546' },
@@ -38,6 +40,15 @@ const CONTRACTS: Contract[] = [
   { season: 9, address: '0x822ce419cc3298e58B8D61e64981634bBC54338c' },
 ];
 
+// Role-based contracts (AccessControl). The admin role checked is
+// DEFAULT_ADMIN_ROLE == bytes32(0).
+const DEFAULT_ADMIN_ROLE =
+  '0x0000000000000000000000000000000000000000000000000000000000000000';
+
+const ROLE_CONTRACTS: Contract[] = [
+  { season: 'Yoki Legacy', address: '0x80E041b16a38f4caa1d0137565B37FD71b2f1E2b' },
+];
+
 function readOwner(rpcUrl: string, address: string): string {
   const out = execFileSync(
     'cast',
@@ -45,6 +56,28 @@ function readOwner(rpcUrl: string, address: string): string {
     { encoding: 'utf-8' }
   );
   return out.trim();
+}
+
+function hasRole(
+  rpcUrl: string,
+  address: string,
+  role: string,
+  account: string
+): boolean {
+  const out = execFileSync(
+    'cast',
+    [
+      'call',
+      address,
+      'hasRole(bytes32,address)(bool)',
+      role,
+      account,
+      '--rpc-url',
+      rpcUrl,
+    ],
+    { encoding: 'utf-8' }
+  );
+  return out.trim() === 'true';
 }
 
 interface Row {
@@ -61,15 +94,7 @@ function classify(owner: string): string {
   return '❓ unknown owner';
 }
 
-function printTable(rows: Row[]): void {
-  const headers = ['Season', 'Contract', 'Owner', 'Status'];
-  const data = rows.map((r) => [
-    String(r.season),
-    r.address,
-    r.owner,
-    r.status,
-  ]);
-
+function renderTable(headers: string[], data: string[][]): void {
   const widths = headers.map((h, i) =>
     Math.max(h.length, ...data.map((row) => row[i].length))
   );
@@ -81,6 +106,13 @@ function printTable(rows: Row[]): void {
   console.log(fmt(headers));
   console.log(sep);
   data.forEach((row) => console.log(fmt(row)));
+}
+
+function printTable(rows: Row[]): void {
+  renderTable(
+    ['Season', 'Contract', 'Owner', 'Status'],
+    rows.map((r) => [String(r.season), r.address, r.owner, r.status])
+  );
 }
 
 function main(): void {
@@ -121,6 +153,33 @@ function main(): void {
         notDone.map((r) => r.season).join(', ')
     );
   }
+
+  // ---- Role-based contracts (AccessControl) ----
+  const roleData: string[][] = [];
+  for (const c of ROLE_CONTRACTS) {
+    let faultyHas: string;
+    let newHas: string;
+    let status: string;
+    try {
+      const faulty = hasRole(rpcUrl, c.address, DEFAULT_ADMIN_ROLE, FAULTY_OWNER);
+      const fresh = hasRole(rpcUrl, c.address, DEFAULT_ADMIN_ROLE, NEW_OWNER);
+      faultyHas = faulty ? 'yes' : 'no';
+      newHas = fresh ? 'yes' : 'no';
+      // Good = compromised address has NO admin, new address HAS admin.
+      status = !faulty && fresh ? '✅ ok' : '❌ check';
+    } catch (err) {
+      faultyHas = '<error>';
+      newHas = '<error>';
+      status = `ERROR: ${(err as Error).message.split('\n')[0]}`;
+    }
+    roleData.push([String(c.season), c.address, faultyHas, newHas, status]);
+  }
+
+  console.log('\nRole-based contracts (DEFAULT_ADMIN_ROLE):\n');
+  renderTable(
+    ['Name', 'Contract', 'Faulty has admin', 'New has admin', 'Status'],
+    roleData
+  );
 }
 
 main();
