@@ -4,7 +4,7 @@ pragma solidity 0.8.17;
 
 import "forge-std/Script.sol";
 
-import { ScoreSeason11 } from "../src/ScoreSeason11.sol";
+import { ScoreSeason12 } from "../src/ScoreSeason12.sol";
 
 import { ERC721SeaDrop } from "../src/ERC721SeaDrop.sol";
 
@@ -21,16 +21,16 @@ contract DeployAndConfigureScore is Script {
     // Token config
     uint256 maxSupply = 40000;
     string baseURI =
-        "ipfs://bafkreic4qyzeq2hk3zmckaf3owqcwucysprhfn6hre36xtwxysf674uhbm"; // Score11 metadata pointing to image
+        "ipfs://bafkreignuqz4uvjk7pbbrxetz4fkjbjywqrga4vcawny7yri6tuu3tutie"; // Score12 metadata pointing to image
     string contractURI =
-        "ipfs://bafkreicnvwlcenykwrvjhoy2aooktennwcep3s5yg76vgxotkh27yvtxfe"; // Score11 contract info
+        "ipfs://bafkreiffpkfozcq2dv7wsf4uccyzhlmxt4n644q3r54ohhvvrhfp6qgzke"; // Score12 contract info
 
     // Drop config
     uint16 feeBps = 0;
     uint80 mintPrice = 1000 ether;
     uint16 maxTotalMintableByWallet = 1;
-    uint48 startTime = 1783494000; // (GMT): Wednesday, July 8, 2026 at 7:00:00 AM
-    uint48 endTime = 1784703600; // (GMT):Wednesday, July 22, 2026 at 7:00:00 AM
+    uint48 startTime = 1785913200; // (GMT): Wednesday, August 5, 2026 at 7:00:00 AM
+    uint48 endTime = 1788315600; // (GMT): Wednesday, August 19, 2026 at 7:00:00 AM
 
     function run() external {
         vm.startBroadcast();
@@ -40,7 +40,7 @@ contract DeployAndConfigureScore is Script {
         address[] memory allowedSeadrop = new address[](1);
         allowedSeadrop[0] = seadrop;
 
-        ScoreSeason11 token = new ScoreSeason11();
+        ScoreSeason12 token = new ScoreSeason12();
 
         // Configure the token.
         token.setMaxSupply(maxSupply);
